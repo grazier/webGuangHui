@@ -1,0 +1,50 @@
+body.vf { overflow: hidden; }
+html, body, div, h1, h2, h3, h4, p, img, span, dl, ul, li { margin: 0; padding: 0; border: none; }
+ul, li { list-style: none; }
+.section { text-align: center; overflow: hidden; }
+.hide { display: none; }
+.show { display: inline-block; }
+.display_ib { display: inline-block; }
+i { display: inline-block; position: relative; }
+.opacity0 { opacity: 0; _filter: alpha(opacity=0); }
+.ta_l { text-align: left; }
+.ta_r { text-align: right; }
+.va_t { vertical-align: top; }
+.va_m { vertical-align: middle; }
+.pt10{padding-top:10px}.pt20{padding-top:20px}.pt30{padding-top:30px}.pt40{padding-top:40px}.pt50{padding-top:50px}.pt60{padding-top:60px}.pt70{padding-top:70px}.pt80{padding-top:80px}.pt90{padding-top:90px}.pt100{padding-top:100px}.pt150{padding-top:150px}.pt200{padding-top:200px}.pt250{padding-top:250px}.pb10{padding-bottom:10px}.pb20{padding-bottom:20px}.pb30{padding-bottom:30px}.pb40{padding-bottom:40px}.pb50{padding-bottom:50px}.pb60{padding-bottom:60px}.pb70{padding-bottom:70px}.pb80{padding-bottom:80px}.pb90{padding-bottom:90px}.pb100{padding-bottom:100px}.pb150{padding-bottom:150px}.pl10{padding-left:10px}.pl20{padding-left:20px}.pl30{padding-left:30px}.pl40{padding-left:40px}.pl50{padding-left:50px}.pl60{padding-left:60px}.pl70{padding-left:70px}.pl80{padding-left:80px}.pl90{padding-left:90px}.pl100{padding-left:100px}.pl150{padding-left:150px}.pr10{padding-right:10px}.pr20{padding-right:20px}.pr30{padding-right:30px}.pr40{padding-right:40px}.pr50{padding-right:50px}.pr60{padding-right:60px}.pr70{padding-right:70px}.pr80{padding-right:80px}.pr90{padding-right:90px}.pr100{padding-right:100px}.pr150{padding-right:150px}
+
+.mzContainer { position: absolute; z-index: 20000; left: 0; top: 0; border: solid 1px #A9BAC6; background-color: white; clear: left; display: none; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -webkit-box-shadow: 0px 0px 10px #E1E4E8; -moz-box-shadow: 0px 0px 10px #E1E4E8; box-shadow: 0px 0px 10px #E1E4E8; }
+.mzBlockLayer { opacity: 1; position: absolute; background: #fff url('../images/close.jpg') no-repeat 95% 40px; left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; }
+.mzdialog { background-color: white; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; }
+.multidiv { padding-top: 40px; position: relative; }
+.VideoBg { background: url('../images/multi_24.png') 0 0 no-repeat; _background: url('../images/multi_8.png') 0 0 no-repeat; height: 100%; cursor: pointer; }
+.overOpac0 { opacity: 0; filter: alpha(opacity=0); -moz-opacity: 0; -khtml-opacity: 0; background-color: #fff; }
+.VStart { background-position: 4px -84px; width: 42px; height:44px; }
+.VPauls { background-position: -91px -84px;  width: 42px; height:44px; }
+.opac0 { opacity: 0; filter: alpha(opacity=0); -moz-opacity: 0; -khtml-opacity: 0; background-color: #000; }
+.opac3 { opacity: 0.3; filter: alpha(opacity=30); -moz-opacity: 0.3; -khtml-opacity: 0.3; }
+.opac5 { opacity: 0.8; filter: alpha(opacity=80); -moz-opacity: 0.8; -khtml-opacity: 0.8; }
+#vBtn.vBtnOver { border: solid 3px #fff; }
+#vPlayer { top: 0px; left: 0px; position: absolute; }
+#videoContr { position: absolute; left: 0px; bottom: 0px; height: 77px; width: 100%; }
+#VideoControl { position: relative; width: 100%; height: 100%; margin: 0px auto; overflow: hidden; }
+#vLeft { margin-left: 30px; width: 22px; background-position: -23px 0; }
+#vRight { margin-left: 70px; width: 22px; background-position: 0 0; }
+#videoBottom { position: absolute; width: 100%; height: 50px; left: 0px; top: 28px; background-color: #000; z-index: 1; }
+#videoBottom1 { position: absolute; width: 100%; left: 0px; top: 28px; z-index: 2; }
+#videoBottom2 { width: 100%; height: 50px; }
+#vLaba { width: 35px; background-position: -91px 2px; float: right; cursor: default; }
+#vVolume { width: 100px; height: 100%; position: relative; margin-right: 30px; float: right; cursor: default; }
+#volBg { position: absolute; left: 0px; top: 22px; height: 4px; width: 100%; background-color: #ffffff; }
+#vBar2 { position: absolute; left: 0px; top: 22px; height: 4px; width: 50%; background-color: #27b3ef; }
+#vSpot2 { width: 10px; height: 10px; background-position: -55px 0px; position: absolute; top: 20px; left: 0px; z-index: 2; }
+#vProcc { width: 100%; height: 28px; overflow: visible; position: relative; }
+#proccBg { position: absolute; left: 0px; top: 24px; width: 100%; height: 4px; background-color: #000; }
+#cacheBg { position: absolute; left: 0px; top: 24px; width: 0px; height: 4px; background-color: #fff; }
+#vBar { position: absolute; left: 0px; top: 24px; width: 0px; height: 4px; background-color: #27b3ef; }
+#vSpot { position: absolute; top: 0px; left: -25px; z-index: 3; width: 50px; height: 50px; display: none; }
+#vTrack { cursor: pointer; position: absolute; top: 20px; left: 0px; z-index: 2; width: 100%; height: 12px; }
+#vCurTime { padding: 0px 5px; color: #fff; font-size: 16px; }
+#vAllTime { padding: 0px 5px; color: #808080; font-size: 16px; }
+#vTimezone { height: 50px; line-height: 50px; margin-left: 25px; display: none; }
+#vSS { display: none; position: absolute; top: 0px; }

@@ -1,0 +1,249 @@
+body.mac .slider,.slider h1,.slider h2,.link-group a,.button-group .button,.syht{
+	font-family:SYHT,"Microsoft Yahei","微软雅黑",Arial,Helvetica,sans-serif
+}
+
+body.mac #meizu-footer .meizu-footer-link p{
+	font-weight:400
+}
+
+.btn-video{
+	display:block;
+	width:134px;
+	border:0;
+	outline:0;
+	border:2px solid #515151;
+	border-radius:50px;
+	padding:10px 0;
+	font-size:15px;
+	background-color:#fff;
+	cursor:pointer
+}
+
+.btn-video .col-15-24{
+	text-align:left
+}
+
+.button{
+	outline:0;
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+	line-height:normal;
+	white-space:nowrap;
+	vertical-align:baseline;
+	text-align:center;
+	cursor:pointer;
+	-webkit-user-drag:none;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none
+}
+
+.button::-moz-focus-inner{
+	padding:0;
+	border:0
+}
+
+.button{
+	font-family:inherit;
+	font-size:100%;
+	*font-size:90%;
+	*overflow:visible;
+	padding:.6em 1.2em;
+	color:#444;
+	color:rgba(0,0,0,.8);
+	*color:#444;
+	border:1px solid #999;
+	border:none rgba(0,0,0,0);
+	background-color:#E6E6E6;
+	text-decoration:none
+}
+
+.button-hover,.button:hover,.button:focus{
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#1a000000', GradientType=0);
+	background-image:-webkit-gradient(linear,0 0,0 100%,from(transparent),color-stop(40%,rgba(0,0,0,.05)),to(rgba(0,0,0,.1)));
+	background-image:-webkit-linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));
+	background-image:-moz-linear-gradient(top,rgba(0,0,0,.05) 0,rgba(0,0,0,.1));
+	background-image:-o-linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));
+	background-image:linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1))
+}
+
+.button-active,.button:active{
+	box-shadow:0 0 0 1px rgba(0,0,0,.15) inset,0 0 6px rgba(0,0,0,.2) inset
+}
+
+.button[disabled],.button-disabled,.button-disabled:hover,.button-disabled:focus,.button-disabled:active{
+	border:none;
+	background-image:none;
+	filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	filter:alpha(opacity=40);
+	-khtml-opacity:.4;
+	-moz-opacity:.4;
+	opacity:.4;
+	cursor:not-allowed;
+	box-shadow:none
+}
+
+.button-hidden{
+	display:none
+}
+
+.button::-moz-focus-inner{
+	padding:0;
+	border:0
+}
+
+.button-primary,.button-selected,a.button-primary,a.button-selected{
+	background-color:#3db1fa;
+	color:#fff
+}
+
+.subnav{
+	z-index:10;
+	position:absolute;
+	width:100%;
+	top:81px;
+	left:0;
+	font-size:12px;
+	background-color:rgba(255,255,255,.85);
+	padding:10px 0
+}
+
+.subnav.fixed{
+	position:fixed;
+	top:0;
+	padding:0
+}
+
+.subnav-wrap{
+	overflow:hidden;
+	margin:0 auto;
+	width:1040px;
+	padding:0 20px
+}
+
+.subnav-logo{
+	display:inline;
+	float:left
+}
+
+.subnav-link{
+	display:inline;
+	float:right;
+	overflow:hidden;
+	padding-top:9px
+}
+
+.subnav-link li{
+	margin:0 6px;
+	border-bottom:2px solid transparent;
+	*border-bottom:2px solid #fff
+}
+
+.subnav-link li:hover,.subnav-link li.hover{
+	border-bottom:2px solid #31a5e7;
+	-webkit-transition:all .5s ease-in-out;
+	-o-transition:all .5s ease-in-out;
+	transition:all .5s ease-in-out
+}
+
+.subnav-link a{
+	display:block;
+	padding:12px
+}
+
+.subnav-link li{
+	display:inline;
+	float:left
+}
+
+.subnav-buy{
+	display:inline;
+	float:right
+}
+
+.subnav-logo{
+	padding:22px 0
+}
+
+.subnav-logo-img{
+	width:52px;
+	height:17px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-image:url(../images/logo.png?v=0919);
+	background-image:-webkit-image-set(url(../images/logo.png?v=0919) 1x,url(../images/logo@2x.png?v=0919) 2x)
+}
+
+.subnav-buy{
+	padding:14px 0 0 19px
+}
+
+@media screen and (max-width:1080px){
+	.subnav{
+		width:1080px
+	}
+
+}
+
+.toTop{
+	height:80px;
+	width:80px;
+	display:none;
+	position:fixed;
+	bottom:0;
+	right:0;
+	z-index:9999
+}
+
+.mx4pro-page h1{
+	font-size:60px;
+	line-height:70px
+}
+
+.mx4pro-page h2{
+	font-size:45px;
+	line-height:50px;
+	margin-top:10px
+}
+
+.mx4pro-page .subnav-logo-img{
+	width:104px;
+	height:18px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-image:url(../images/mx4pro_logo.png?v=0919);
+	background-image:-webkit-image-set(url(../images/mx4pro_logo.png?v=0919) 1x,url(../images/mx4pro_logo@2x.png?v=0919) 2x)
+}
+
+.mx4pro-page .subnav-logo{
+	padding:22px 0
+}
+
+.mx4pro-page .subnav{
+	filter:alpha(opacity=90);
+	opacity:.85;
+	background-color:#fff
+}
+
+.mx4pro-page .center-wrapper{
+	position:relative;
+	top:0;
+	width:1040px;
+	height:100%;
+	margin:0 auto
+}
+
+.mx4pro-page .slider{
+	position:relative;
+	overflow:hidden
+}
+
+.mx4pro-page .img-wrapper{
+	line-height:0
+}
+
+.JSWrapperWidth{
+	width:1080px
+}

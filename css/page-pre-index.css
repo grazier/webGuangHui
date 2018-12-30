@@ -1,0 +1,151 @@
+header {
+  position: relative;
+  height: 761px;
+}
+.page {
+  height: 761px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/*slider*/
+.button.button-buy {
+  background-color: #ea4a00;
+  color: #fff;
+}
+.slider-1 {
+  background-image: url('../images/pre-header.jpg');
+  background-image: -webkit-image-set(url('../images/pre-header.jpg') 1x, url('../images/pre-header@2x.jpg') 2x);
+}
+.slider-2 {
+  background-image: url('../images/pre-header-ali.jpg?v=0919');
+  background-image: -webkit-image-set(url('../images/pre-header-ali.jpg') 1x, url('../images/pre-header-ali@2x.jpg') 2x);
+}
+.slider {
+  position: absolute;
+  height: 761px;
+  width: 100%;
+}
+.slider-wrap {
+  height: 761px;
+}
+.slider-wrap .page {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 761px;
+}
+.wrapper {
+  width: 1040px;
+  margin: 0 auto;
+  position: relative;
+}
+.hotspot {
+  text-align: center;
+}
+.hotspot .col-8-24 {
+  padding-top: 20px;
+}
+.link-group {
+  text-align: center;
+  position: absolute;
+  bottom: 230px;
+  width: 100%;
+}
+.link-group a {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  color: #fff;
+  padding: 12px 30px;
+  border: 1px solid #fff;
+  border-radius: 40px;
+  margin: 0 10px;
+  font-size: 20px;
+}
+.link-group .fa.fa-play {
+  margin-right: 5px;
+  font-size: 17px;
+}
+.link-group .fa.fa-weibo {
+  font-size: 19px;
+  margin-right: 5px;
+}
+.button-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  z-index: 1;
+}
+.button-group {
+  position: absolute;
+  width: 445px;
+  margin: 0 auto;
+  padding: 480px 0 0 96px;
+}
+.button-group .button {
+  margin: 0 auto;
+  font-size: 24px;
+  padding: 12px 45px;
+  background-color: #ffb401;
+}
+.button-group .button.button-fix {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.button-group .button.button-fix:hover {
+  background-image: none; 
+}
+.button-group .button-fix:active {
+  box-shadow: 0 0 0 1px rgba(255,255,255, 0.15) inset, 0 0 6px rgba(255,255,255, 0.20) inset;
+}
+.bullet {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -50px;
+  width: 100px;
+}
+.bullet i {
+  font-size: 20px;
+  color: #fff;
+  margin: 0 10px;
+  float: left;
+  cursor: pointer;
+}
+
+
+.mx4pro19 .button-group {
+  width: 460px;
+  margin: 0 auto;
+  left: -212px;
+  padding: 390px 0 0 0;
+}
+.mx4pro19 .button-group a {
+  color: #fff;
+  display: block;
+  width: 78px;
+  height: 78px;
+  text-indent: -9999px;
+}
+
+.mx4pro19 .button-group a:focus{outline:0}
+
+
+@media screen and (max-width: 1080px) {
+  /*.intro-icon {
+    width: 100%;
+  }*/
+  header {
+    width: 1080px;
+  }
+  .wrapper {
+    width: 1080px;
+  }
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .button-group {
+    padding: 555px 0 0 108px;
+  }
+}
