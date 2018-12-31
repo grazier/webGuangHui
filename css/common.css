@@ -180,9 +180,9 @@ body.mac #meizu-footer .meizu-footer-link p{
 	padding:14px 0 0 19px
 }
 
-@media screen and (max-width:1080px){
+@media screen and (max-width:1180px){
 	.subnav{
-		width:1080px
+		width:1180px
 	}
 
 }
@@ -245,5 +245,5 @@ body.mac #meizu-footer .meizu-footer-link p{
 }
 
 .JSWrapperWidth{
-	width:1080px
+	width:1180px
 }

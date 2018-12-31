@@ -1,1 +1,618 @@
-.animate{opacity:0}.slider{font-size:16px;line-height:24px;color:#333}.screen{position:relative}.screen .center-wrapper{padding:0 0 150px}.screen-desc{position:relative;width:696px;margin:120px auto 0}.screen-desc p{margin-top:20px}.screen-img{width:100%;text-align:center}.screen-img img{max-width:100%;max-height:100%}.screen-features{position:relative;width:700px;height:100px;margin:40px auto 0}.screen-feature{position:relative;float:left;height:72px;margin-right:-1px;border-left:#e4e4e3 1px solid;border-right:#e4e4e3 1px solid}.screen-feature.first{padding-left:30px;padding-right:32px}.screen-feature.second{padding-left:42px;padding-right:34px}.screen-feature.third{padding-left:34px;padding-right:54px}.screen-feature .t{position:absolute;top:0;font-size:14px}.screen-feature.first .t{left:30px}.screen-feature.second .t{left:42px}.screen-feature.third .t{left:34px}.screen-features .num{font-size:55px;line-height:110px}.screen-feature .r{position:absolute;top:28px;font-size:20px}.cpu{height:1134px;background:#100e0b;color:#FFF}.cpu-desc{position:relative;top:152px;width:728px;margin:0 auto;z-index:1}.cpu-desc p{margin-top:20px;z-index:1}.cpu-img{position:absolute;top:250px;left:50%;margin-left:-619px}.cpu-img img{width:1298px}.cpu-features{position:relative;top:740px;width:674px;height:72px;margin:0 auto;z-index:1}.cpu-feature{position:relative;float:left;height:72px;margin-right:-1px;border-left:#404040 1px solid;border-right:#404040 1px solid}.cpu-feature.first{padding-left:44px;padding-right:50px}.cpu-feature.second{padding-left:50px;padding-right:74px}.cpu-feature.third{padding-left:50px;padding-right:54px}.cpu-feature .t{position:absolute;top:0;font-size:14px}.cpu-feature.first .t{left:44px}.cpu-feature.second .t{left:50px}.cpu-feature.third .t{left:50px}.cpu-feature .num{font-size:55px;line-height:110px}.cpu-feature .r{position:absolute;top:28px;font-size:20px}.mtouch{height:872px}.mtouch-desc{position:relative;top:226px;left:0;width:506px;z-index:1}.mtouch-desc p{margin-top:20px;z-index:1}.mtouch-img{position:absolute;top:0;left:50%;margin-left:-170px}.mtouch-img img{width:1480px;height:872px}.mtouch-desc a{display:inline-block;font-size:24px;color:#00a7ea;margin-top:20px}.mtouch-desc .triangle{position:relative;top:6px;top:0\9;left:4px;display:inline-block;height:30px;width:30px;background:url(../images/triangle.png) 0 0 no-repeat;cursor:pointer}.hifi{height:956px;background-color:#000;background-position:center;background-repeat:no-repeat;background-image:url(../images/hifi.jpg)}.hifi-desc{position:relative;top:188px;width:414px;color:#FFF}.hifi-desc p{margin-top:20px}.hifi-desc ul{margin-top:28px}.hifi-desc li{position:relative;border-top:#404040 1px solid;border-bottom:#404040 1px solid;margin-bottom:-1px}.hifi-desc li h2{height:68px;line-height:68px}.hifi-desc li span{position:absolute;top:10px;right:0;font-size:14px}.hifi-desc a{display:inline-block;font-size:24px;color:#00a7ea;margin-top:42px}.hifi-desc .triangle{position:relative;top:6px;top:0\9;left:4px;display:inline-block;height:30px;width:30px;background:url(../images/triangle.png) 0 0 no-repeat;cursor:pointer}.net{height:1070px}.net-desc{position:relative;top:264px;width:310px}.net-desc p{margin-top:20px}.net-img{position:absolute;top:100px;left:50%;margin-left:-150px}.net-img img{width:950px;height:978px}.net-desc ul{margin-top:28px}.net-desc li{position:relative;border-top:#c9c9c9 1px solid;border-bottom:#c9c9c9 1px solid;margin-bottom:-1px}.net-desc li h2{height:68px;line-height:68px}.net-desc li h2 i{display:inline-block;position:absolute;top:26px;font-size:25px;line-height:25px}.net-desc li span{position:absolute;top:16px;right:0;font-size:14px}.voicerecognition{height:890px;background-color:#000;background-position:center;background-repeat:no-repeat;background-image:url(../images/voicerecognition.jpg);background-image:-webkit-image-set(url(../images/voicerecognition.jpg) 1x,url(../images/voicerecognition@2x.jpg) 2x)}.voicerecognition-desc{position:relative;top:530px;width:400px;color:#FFF}.voicerecognition-desc p{margin-top:20px}.battery{height:944px;background-color:#fff}.battery .center-wrapper{position:relative;overflow:hidden}.battery-desc{position:absolute;top:330px;width:356px;right:0}.battery-desc p{margin-top:20px}.battery-img{position:absolute;left:0;bottom:0}.battery-img img{width:552px;height:782px}.battery-desc ul{margin-top:28px}.battery-desc li{position:relative;border-top:#c9c9c9 1px solid;border-bottom:#c9c9c9 1px solid;margin-bottom:-1px}.battery-desc li h2{height:68px;line-height:68px}.battery-desc li h2 i{display:inline-block;position:absolute;top:26px;font-size:25px;line-height:25px}.battery-desc li span{position:absolute;top:16px;right:0;font-size:14px}.camera{height:804px;background-color:#181520;color:#FFF}.camera-desc{position:relative;top:158px;width:540px;margin:0 auto;z-index:1}.camera-desc p{margin-top:20px;z-index:1}.camera-img{position:absolute;top:400px;left:50%;margin-left:-359px}.camera-img img{width:673px}.camerafeatures{height:468px}.camerafeatures-desc{position:relative;top:100px;left:0;height:272px}.camerafeatures-desc li{float:left;height:84px;width:346px;margin-bottom:100px}.camerafeatures-desc li i{display:inline-block;float:left;width:84px;height:84px;background:url(../images/camerafeatures.jpg)}.camerafeatures-desc .pixel i{background-position:0 0}.camerafeatures-desc .iso i{background-position:420px 0}.camerafeatures-desc .quickshoot i{background-position:336px 0}.camerafeatures-desc .focus i{background-position:252px 0}.camerafeatures-desc .lights i{background-position:168px 0}.camerafeatures-desc .video i{background-position:84px 0}.camerafeatures-desc div{float:left;width:220px;margin-left:32px}.camerafeatures-desc h3{font-size:18px;margin-bottom:10px}.camerafeatures-desc p{font-size:14px}.frontcamera{height:940px;background-color:#000;background-position:center;background-repeat:no-repeat;background-image:url(../images/front_camera_shoot.jpg);background-image:-webkit-image-set(url(../images/front_camera_shoot.jpg) 1x,url(../images/front_camera_shoot@2x.jpg) 2x)}.frontcamera-desc{position:relative;top:272px;width:480px;color:#FFF}.frontcamera-desc h1 span{font-size:42px}.frontcamera-desc p{width:340px;margin-top:20px}.ie .screen-desc{width:740px}.ie .screen-features{width:740px}.ie .screen-feature{height:80px}.ie .screen-feature .num{font-size:52px;_font-size:42px}.ie .cpu-desc{width:742px}.ie .cpu-features{width:720px}.ie .cpu-feature{height:80px}.ie .cpu-feature .num{font-size:52px}.ie .mtouch-desc{width:490px}.ie .camera-desc{width:550px}.ie .net-desc li h2 i{display:inline-block;position:absolute;top:26px;font-size:25px;line-height:25px}.ie .net-desc li span{top:10px}.ie .t{_display:block;_width:100px}
+.animate {
+	opacity: 0
+}
+
+.slider {
+	font-size: 16px;
+	line-height: 24px;
+	color: #333
+}
+
+.screen {
+	position: relative
+}
+
+.screen .center-wrapper {
+	padding: 0 0 150px
+}
+
+.screen-desc {
+	position: relative;
+	width: 696px;
+	margin: 120px auto 0
+}
+
+.screen-desc p {
+	margin-top: 20px
+}
+
+.screen-img {
+	width: 100%;
+	text-align: center
+}
+
+.screen-img img {
+	max-width: 100%;
+	max-height: 100%
+}
+
+.screen-features {
+	position: relative;
+	width: 700px;
+	height: 100px;
+	margin: 40px auto 0
+}
+
+.screen-feature {
+	position: relative;
+	float: left;
+	height: 72px;
+	margin-right: -1px;
+	border-left: #e4e4e3 1px solid;
+	border-right: #e4e4e3 1px solid
+}
+
+.screen-feature.first {
+	padding-left: 30px;
+	padding-right: 32px
+}
+
+.screen-feature.second {
+	padding-left: 42px;
+	padding-right: 34px
+}
+
+.screen-feature.third {
+	padding-left: 34px;
+	padding-right: 54px
+}
+
+.screen-feature .t {
+	position: absolute;
+	top: 0;
+	font-size: 14px
+}
+
+.screen-feature.first .t {
+	left: 30px
+}
+
+.screen-feature.second .t {
+	left: 42px
+}
+
+.screen-feature.third .t {
+	left: 34px
+}
+
+.screen-features .num {
+	font-size: 55px;
+	line-height: 110px
+}
+
+.screen-feature .r {
+	position: absolute;
+	top: 28px;
+	font-size: 20px
+}
+
+.cpu {
+	height: 1134px;
+	background: #100e0b;
+	color: #FFF
+}
+
+.cpu-desc {
+	position: relative;
+	top: 152px;
+	width: 728px;
+	margin: 0 auto;
+	z-index: 1
+}
+
+.cpu-desc p {
+	margin-top: 20px;
+	z-index: 1
+}
+
+.cpu-img {
+	position: absolute;
+	top: 250px;
+	left: 50%;
+	margin-left: -619px
+}
+
+.cpu-img img {
+	width: 1298px
+}
+
+.cpu-features {
+	position: relative;
+	top: 740px;
+	width: 674px;
+	height: 72px;
+	margin: 0 auto;
+	z-index: 1
+}
+
+.cpu-feature {
+	position: relative;
+	float: left;
+	height: 72px;
+	margin-right: -1px;
+	border-left: #404040 1px solid;
+	border-right: #404040 1px solid
+}
+
+.cpu-feature.first {
+	padding-left: 44px;
+	padding-right: 50px
+}
+
+.cpu-feature.second {
+	padding-left: 50px;
+	padding-right: 74px
+}
+
+.cpu-feature.third {
+	padding-left: 50px;
+	padding-right: 54px
+}
+
+.cpu-feature .t {
+	position: absolute;
+	top: 0;
+	font-size: 14px
+}
+
+.cpu-feature.first .t {
+	left: 44px
+}
+
+.cpu-feature.second .t {
+	left: 50px
+}
+
+.cpu-feature.third .t {
+	left: 50px
+}
+
+.cpu-feature .num {
+	font-size: 55px;
+	line-height: 110px
+}
+
+.cpu-feature .r {
+	position: absolute;
+	top: 28px;
+	font-size: 20px
+}
+
+.mtouch {
+	height: 872px
+}
+
+.mtouch-desc {
+	position: relative;
+	top: 226px;
+	left: 0;
+	width: 506px;
+	z-index: 1
+}
+
+.mtouch-desc p {
+	margin-top: 20px;
+	z-index: 1
+}
+
+.mtouch-img {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -170px
+}
+
+.mtouch-img img {
+	width: 1480px;
+	height: 872px
+}
+
+.mtouch-desc a {
+	display: inline-block;
+	font-size: 24px;
+	color: #00a7ea;
+	margin-top: 20px
+}
+
+.mtouch-desc .triangle {
+	position: relative;
+	top: 6px;
+	top: 0\9;
+	left: 4px;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	background: url(../images/triangle.png) 0 0 no-repeat;
+	cursor: pointer
+}
+
+.hifi {
+	height: 956px;
+	background-color: #000;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url(../images/hifi.jpg)
+}
+
+.hifi-desc {
+	position: relative;
+	top: 188px;
+	width: 414px;
+	color: #FFF
+}
+
+.hifi-desc p {
+	margin-top: 20px
+}
+
+.hifi-desc ul {
+	margin-top: 28px
+}
+
+.hifi-desc li {
+	position: relative;
+	border-top: #404040 1px solid;
+	border-bottom: #404040 1px solid;
+	margin-bottom: -1px
+}
+
+.hifi-desc li h2 {
+	height: 68px;
+	line-height: 68px
+}
+
+.hifi-desc li span {
+	position: absolute;
+	top: 10px;
+	right: 0;
+	font-size: 14px
+}
+
+.hifi-desc a {
+	display: inline-block;
+	font-size: 24px;
+	color: #00a7ea;
+	margin-top: 42px
+}
+
+.hifi-desc .triangle {
+	position: relative;
+	top: 6px;
+	top: 0\9;
+	left: 4px;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	background: url(../images/triangle.png) 0 0 no-repeat;
+	cursor: pointer
+}
+
+.net {
+	height: 1070px
+}
+
+.net-desc {
+	position: relative;
+	top: 264px;
+	width: 310px
+}
+
+.net-desc p {
+	margin-top: 20px
+}
+
+.net-img {
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	margin-left: -150px
+}
+
+.net-img img {
+	width: 950px;
+	height: 978px
+}
+
+.net-desc ul {
+	margin-top: 28px
+}
+
+.net-desc li {
+	position: relative;
+	border-top: #c9c9c9 1px solid;
+	border-bottom: #c9c9c9 1px solid;
+	margin-bottom: -1px
+}
+
+.net-desc li h2 {
+	height: 68px;
+	line-height: 68px
+}
+
+.net-desc li h2 i {
+	display: inline-block;
+	position: absolute;
+	top: 26px;
+	font-size: 25px;
+	line-height: 25px
+}
+
+.net-desc li span {
+	position: absolute;
+	top: 16px;
+	right: 0;
+	font-size: 14px
+}
+
+.voicerecognition {
+	height: 890px;
+	background-color: #000;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url(../images/voicerecognition.jpg);
+	background-image: -webkit-image-set(url(../images/voicerecognition.jpg) 1x,
+		url(../images/voicerecognition@2x.jpg) 2x)
+}
+
+.voicerecognition-desc {
+	position: relative;
+	top: 530px;
+	width: 400px;
+	color: #FFF
+}
+
+.voicerecognition-desc p {
+	margin-top: 20px
+}
+
+.battery {
+	height: 944px;
+	background-color: #fff
+}
+
+.battery .center-wrapper {
+	position: relative;
+	overflow: hidden
+}
+
+.battery-desc {
+	position: absolute;
+	top: 330px;
+	width: 356px;
+	right: 0
+}
+
+.battery-desc p {
+	margin-top: 20px
+}
+
+.battery-img {
+	position: absolute;
+	left: 0;
+	bottom: 0
+}
+
+.battery-img img {
+	width: 552px;
+	height: 782px
+}
+
+.battery-desc ul {
+	margin-top: 28px
+}
+
+.battery-desc li {
+	position: relative;
+	border-top: #c9c9c9 1px solid;
+	border-bottom: #c9c9c9 1px solid;
+	margin-bottom: -1px
+}
+
+.battery-desc li h2 {
+	height: 68px;
+	line-height: 68px
+}
+
+.battery-desc li h2 i {
+	display: inline-block;
+	position: absolute;
+	top: 26px;
+	font-size: 25px;
+	line-height: 25px
+}
+
+.battery-desc li span {
+	position: absolute;
+	top: 16px;
+	right: 0;
+	font-size: 14px
+}
+
+.camera {
+	height: 804px;
+	background-color: #181520;
+	color: #FFF
+}
+
+.camera-desc {
+	position: relative;
+	top: 158px;
+	width: 540px;
+	margin: 0 auto;
+	z-index: 1
+}
+
+.camera-desc p {
+	margin-top: 20px;
+	z-index: 1
+}
+
+.camera-img {
+	position: absolute;
+	top: 400px;
+	left: 50%;
+	margin-left: -359px
+}
+
+.camera-img img {
+	width: 673px
+}
+
+.camerafeatures {
+	height: 468px
+}
+
+.camerafeatures-desc {
+	position: relative;
+	top: 100px;
+	left: 0;
+	height: 272px
+}
+
+.camerafeatures-desc li {
+	float: left;
+	height: 84px;
+	width: 346px;
+	margin-bottom: 100px
+}
+
+.camerafeatures-desc li i {
+	display: inline-block;
+	float: left;
+	width: 84px;
+	height: 84px;
+	background: url(../images/camerafeatures.jpg)
+}
+
+.camerafeatures-desc .pixel i {
+	background-position: 0 0
+}
+
+.camerafeatures-desc .iso i {
+	background-position: 420px 0
+}
+
+.camerafeatures-desc .quickshoot i {
+	background-position: 336px 0
+}
+
+.camerafeatures-desc .focus i {
+	background-position: 252px 0
+}
+
+.camerafeatures-desc .lights i {
+	background-position: 168px 0
+}
+
+.camerafeatures-desc .video i {
+	background-position: 84px 0
+}
+
+.camerafeatures-desc div {
+	float: left;
+	width: 220px;
+	margin-left: 32px
+}
+
+.camerafeatures-desc h3 {
+	font-size: 18px;
+	margin-bottom: 10px
+}
+
+.camerafeatures-desc p {
+	font-size: 14px
+}
+
+.frontcamera {
+	height: 940px;
+	background-color: #000;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url(../images/front_camera_shoot.jpg);
+	background-image: -webkit-image-set(url(../images/front_camera_shoot.jpg) 1x,
+		url(../images/front_camera_shoot@2x.jpg) 2x)
+}
+
+.frontcamera-desc {
+	position: relative;
+	top: 272px;
+	width: 480px;
+	color: #FFF
+}
+
+.frontcamera-desc h1 span {
+	font-size: 42px
+}
+
+.frontcamera-desc p {
+	width: 340px;
+	margin-top: 20px
+}
+
+.ie .screen-desc {
+	width: 740px
+}
+
+.ie .screen-features {
+	width: 740px
+}
+
+.ie .screen-feature {
+	height: 80px
+}
+
+.ie .screen-feature .num {
+	font-size: 52px;
+	_font-size: 42px
+}
+
+.ie .cpu-desc {
+	width: 742px
+}
+
+.ie .cpu-features {
+	width: 720px
+}
+
+.ie .cpu-feature {
+	height: 80px
+}
+
+.ie .cpu-feature .num {
+	font-size: 52px
+}
+
+.ie .mtouch-desc {
+	width: 490px
+}
+
+.ie .camera-desc {
+	width: 550px
+}
+
+.ie .net-desc li h2 i {
+	display: inline-block;
+	position: absolute;
+	top: 26px;
+	font-size: 25px;
+	line-height: 25px
+}
+
+.ie .net-desc li span {
+	top: 10px
+}
+
+.ie .t {
+	_display: block;
+	_width: 100px
+}

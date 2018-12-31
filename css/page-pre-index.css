@@ -36,7 +36,7 @@ header {
   height: 761px;
 }
 .wrapper {
-  width: 1040px;
+  width: 1140px;
   margin: 0 auto;
   position: relative;
 }
@@ -133,15 +133,15 @@ header {
 .mx4pro19 .button-group a:focus{outline:0}
 
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1180px) {
   /*.intro-icon {
     width: 100%;
   }*/
   header {
-    width: 1080px;
+    width: 1180px;
   }
   .wrapper {
-    width: 1080px;
+    width: 1180px;
   }
 }
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
