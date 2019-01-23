@@ -1,0 +1,47 @@
+.div-a{ float:left;width:49%;border:1px solid #F00} 
+.div-b{ float:left;width:49%;border:1px solid #000} 
+
+.menu_list {
+	width: 248px;
+	margin: 0;
+}
+
+.menu_head {
+	height: 47px;
+	line-height: 47px;
+	padding-left: 38px;
+	font-size: 14px;
+	color: #000;
+	cursor: pointer;
+	border: 0px solid #f1f1f1;
+	position: relative;
+	margin: 0px;
+	font-weight: bold;
+	background: #fff;
+}
+
+.menu_list .current {
+	background: #fff;
+}
+
+.menu_nva {
+	line-height: 38px;
+	border-left: 0px solid #f4f4f4;
+	backguound: #000;
+	border-right: 0px solid #f4f4f4;
+}
+
+.menu_nva a {
+	display: block;
+	height: 38px;
+	line-height: 38px;
+	padding-left: 38px;
+	color: #777777;
+	background: #fff;
+	text-decoration: none;
+	border-bottom: 0px solid #eee;
+}
+
+.menu_nva a:hover {
+	text-decoration: none;
+}

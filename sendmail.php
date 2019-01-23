@@ -1,4 +1,9 @@
 <?php
+$username = $_POST['username'];
+$tel = $_POST['tel'];
+$email = $_POST['email'];
+$message = $_POST['message'];
+$verifyCode = $_POST['verifyCode'];
 // 引入PHPMailer的核心文件
 require_once("PHPMailer/class.phpmailer.php");
 require_once("PHPMailer/class.smtp.php");
@@ -30,14 +35,15 @@ $mail->From = 'fswangkai@163.com';
 // 邮件正文是否为html编码 注意此处是一个方法
 $mail->isHTML(true);
 // 设置收件人邮箱地址
-$mail->addAddress('714301098@qq.com');
+$mail->addAddress($email);
 // 添加多个收件人 则多次调用方法即可
 //$mail->addAddress('data21@163.com');
 // 添加该邮件的主题
-$mail->Subject = '邮件主题';
+$mail->Subject = $username+$tel;
 // 添加邮件正文
-$mail->Body = '<h1>Hello World</h1>';
+$mail->Body = $message;
 // 为该邮件添加附件
 //$mail->addAttachment('./example.pdf');
 // 发送邮件 返回状态
 $status = $mail->send();
+?>

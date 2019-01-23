@@ -1,126 +1,447 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
 <head>
-<title>左侧菜单</title>
-<meta charset="utf-8"> 
+<meta charset="UTF-8">
+<title>Product - WIN-WIN Website</title>
+<meta name="keywords" content="魅族 MEIZU 魅族智能手机 魅族MX4 MX4Pro" />
+<meta name="description"
+	content="魅族发布年度4G智能旗舰手机-魅族MX4 Pro,12月6日正式上市.魅族官网提供最新产品资讯、专卖店信息;魅族手机订购,社区在线交流,海量手机应用以及完善的售后服务." />
+<meta property="wb:webmaster" content="9d3f21bc87127049" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./css/font-awesome.css">
+<link rel="stylesheet" href="./css/base.css">
+<link rel="stylesheet" href="./css/common.css">
+<link rel="stylesheet" href="./css/page-pre-index.css">
+<link rel="stylesheet" href="./css/footer.css">
+<!--[if lt IE 9]>
+        <script src="./js/respond.min.js"></script>
+        <script src="./js/html5shiv.min.js"></script>
+        <style>
+          nav.toggle {
+            background-color: #fff;
+          }
+          .link-group {
+            bottom: 200px;
+          }
+            .syht {
+                font-family: Arial,Muli;
+            }
+        </style>
+        <![endif]-->
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+	var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+	(function() {
+		var s1 = document.createElement("script"), s0 = document
+				.getElementsByTagName("script")[0];
+		s1.async = true;
+		s1.src = 'https://embed.tawk.to/5c297aee82491369ba9ffa23/default';
+		s1.charset = 'UTF-8';
+		s1.setAttribute('crossorigin', '*');
+		s0.parentNode.insertBefore(s1, s0);
+	})();
+</script>
+<!--End of Tawk.to Script-->
 
 <!-- CSS代码 -->
 <style>
 .menu_list {
-width: 268px;
-margin: 0;
+	width: 268px;
+	margin: 0;
 }
 
 .menu_head {
-height: 47px;
-line-height: 47px;
-padding-left: 38px;
-font-size: 14px;
-color: #525252;
-cursor: pointer;
-border: 1px solid #f1f1f1;
-position: relative;
-margin: 0px;
-font-weight: bold;
-background: #51a9f18c;
+	height: 47px;
+	line-height: 47px;
+	padding-left: 38px;
+	font-size: 14px;
+	color: #525252;
+	cursor: pointer;
+	border: 1px solid #f1f1f1;
+	position: relative;
+	margin: 0px;
+	font-weight: bold;
+	background: #51a9f18c;
 }
 
 .menu_list .current {
-background: #51a9f18c;
+	background: #51a9f18c;
 }
 
 .menu_nva {
-line-height: 38px;
-border-left: 1px solid #51a9f18c;
-backguound: #fff;
-border-right: 1px solid #51a9f18c;
+	line-height: 38px;
+	border-left: 1px solid #51a9f18c;
+	backguound: #000;
+	border-right: 1px solid #51a9f18c;
 }
 
 .menu_nva a {
-display: block;
-height: 38px;
-line-height: 38px;
-padding-left: 38px;
-color: #777777;
-background: #fff;
-text-decoration: none;
-border-bottom: 1px solid #51a9f18c;
+	display: block;
+	height: 38px;
+	line-height: 38px;
+	padding-left: 38px;
+	color: #777777;
+	background: #fff;
+	text-decoration: none;
+	border-bottom: 1px solid #51a9f18c;
 }
 
 .menu_nva a:hover {
-text-decoration: none;
+	text-decoration: none;
 }
 </style>
 </head>
 
 
 <body>
+	<div class="container">
+		<header>
 
-<!-- html  start-->
-<div id="firstpaneDiv" class="menu_list">
-<h3 class="menu_head current">Parts</h3>
-<div style="display:block" class="menu_nva">
-<a href="#">KMT</a>
-<a href="#">账户管理</a>
-<a href="#">日志管理</a>
-<a href="#">角色管理</a>
-<a href="#">编码管理</a>
-<a href="#">操作日志</a>
-<a href="#">流程管理</a>
-</div>
-<h3 class="menu_head">Nozzle Orifices</h3>
-<div style="display:none" class="menu_nva">
-<a href="#">KMT</a>
-<a href="#">FLOW</a>
-<a href="#">用例3xx</a>
-<a href="#">用例4xx</a>
-<a href="#">用例5xx</a>
-<a href="#">用例6xx</a>
-<a href="#">用例7xx</a>
-<a href="#">用例8xx</a>
-</div>
-<h3 class="menu_head">Water Jet Cutting Pumps</h3>
-<div style="display:none" class="menu_nva">
-<a href="#">KMT</a>
-<a href="#">FLOW</a>
-<a href="#">用例3xx</a>
-<a href="#">用例4xx</a>
-<a href="#">用例5xx</a>
-<a href="#">用例6xx</a>
-<a href="#">用例7xx</a>
-<a href="#">用例8xx</a>
-</div><h3 class="menu_head">Water Jet Cutting Machine</h3>
-<div style="display:none" class="menu_nva">
-<a href="#">KMT</a>
-<a href="#">FLOW</a>
-<a href="#">JET EDGE</a>
-<a href="#">BFT</a>
-<a href="#">用例5xx</a>
-<a href="#">用例6xx</a>
-<a href="#">用例7xx</a>
-<a href="#">用例8xx</a>
-</div>
 
-<!-- html  end-->
+			<style>
+nav {
+	position: relative;
+	z-index: 2;
+	-webkit-transition: background-color .5s ease-in-out;
+	-o-transition: background-color .5s ease-in-out;
+	transition: background-color .5s ease-in-out;
+}
 
-<!-- script  代码-->
-<script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-$("#firstpaneDiv .menu_nva:eq(0)").show();
-$("#firstpaneDiv h3.menu_head").click(function(){
-$(this).addClass("current").next("div.menu_nva").slideToggle(200).siblings("div.menu_nva").slideUp("slow");
-$(this).siblings().removeClass("current");
-});
-$("#secondpane .menu_nva:eq(0)").show();
-$("#secondpane h3.menu_head").mouseover(function(){
-$(this).addClass("current").next("div.menu_nva").slideDown(400).siblings("div.menu_nva").slideUp("slow");
-$(this).siblings().removeClass("current");
-});
-});
-</script>
+nav.toggle {
+	background-color: rgba(255, 255, 255, 0.95);
+	-webkit-transition: background-color .5s ease-in-out;
+	-o-transition: background-color .5s ease-in-out;
+	transition: background-color .5s ease-in-out;
+}
+
+nav.toggle .meizu-header a, nav.toggle .meizu-header-sub a, nav.toggle .meizu-header-log
+	{
+	color: #515151;
+}
+
+.meizu-header-log {
+	color: #fff;
+}
+
+.meizu-header, .meizu-header-sub {
+	font-size: 14px;
+	font-family: Arial,Muli
+		"宋体";
+	overflow-x: hidden;
+}
+
+.meizu-header a, .meizu-header-sub a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.meizu-header a.hover, .meizu-header a:hover, .meizu-header-sub a.hover,
+	.meizu-header-sub a:hover {
+	color: #31a5e7;
+}
+
+.meizu-header ul, .meizu-header li, .meizu-header-sub ul,
+	.meizu-header-sub li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.meizu-header p, .meizu-header-sub p {
+	margin: 0;
+	padding: 0;
+}
+
+.meizu-header-wrap {
+	width: 1140px;
+	margin: 0 auto;
+	padding: 0 20px;
+	overflow: hidden;
+}
+
+.meizu-header-wrap-sub {
+	width: 1180px;
+	margin: 0 auto;
+}
+
+.meizu-header-logo {
+	display: inline;
+	float: left;
+	padding: 30px 0;
+}
+
+.meizu-header-logo-img {
+	display: block;
+	width: 114px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url(./images/logo.png);
+	background-image: -webkit-image-set(url(./images/logo.png) 1x, url(./images/logo.png) 2x);
+	_background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="./images/logo.png");
+}
+
+nav.toggle .meizu-header-logo-img {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url(./images/logo-toggle.png);
+	background-image: -webkit-image-set(url(./images/logo-toggle.png) 1x,
+		url(./images/logo-toggle.png) 2x);
+	_background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="./images/logo-toggle.png");
+}
+
+.meizu-header-link {
+	display: inline;
+	float: right;
+	overflow: hidden;
+}
+
+.meizu-header-link li {
+	display: inline;
+	float: left;
+}
+
+.meizu-header-link a {
+	display: block;
+	padding: 31px 22px 30px 22px;
+}
+
+.meizu-header-log {
+	display: inline;
+	float: right;
+	padding: 32px 0 0 30px;
+	text-align: right;
+	font-size: 12px;
+}
+
+.meizu-header-sub {
+	z-index: 100;
+	display: none;
+	width: 100%;
+}
+
+.meizu-header-sub-product {
+	display: inline;
+	float: left;
+	text-align: center;
+	padding: 0 5px;
+	width: 176px;
+	-webkit-transition: opacity .5s ease-in-out;
+	-o-transition: opacity .5s ease-in-out;
+	transition: opacity .5s ease-in-out;
+}
+
+.meizu-header-sub-product a {
+	display: block;
+	padding: 1px 0 7px 0;
+}
+
+.meizu-header-sub-product a.hover {
+	color: #515151;
+}
+
+.meizu-header-sub-product a .meizu-header-sub-desc {
+	color: #515151;
+}
+
+.meizu-header-sub-products {
+	overflow: hidden;
+}
+
+.meizu-header-sub-img {
+	width: 112px;
+	height: 102px;
+	margin: 0 auto;
+}
+
+.meizu-header-sub-product .meizu-header-sub-desc {
+	padding: 10px 0;
+}
+
+.meizu-header-sub-img.mx4 {
+	background: transparent
+		url(./images/798d8859910c08ac754e57c7ca11953f.png) no-repeat center
+		bottom;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url(./images/798d8859910c08ac754e57c7ca11953f.png);
+	background-image: -webkit-image-set(url(./images/798d8859910c08ac754e57c7ca11953f.png) 1x,
+		url(./images/97675155da83429c70c6c88469d70775.png) 2x);
+}
+
+.meizu-header-sub-img.mx3 {
+	background: transparent url(./images/mx4.png) no-repeat center bottom;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url(./images/mx4.png);
+	background-image: -webkit-image-set(url(./images/mx4.png) 1x, url(./images/mx4@2x.png) 2x);
+}
+
+.meizu-header-sub-img.mx2 {
+	background: transparent url(./images/mx3.png) no-repeat center bottom;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url(./images/mx3.png);
+	background-image: -webkit-image-set(url(./images/mx3.png) 1x, url(./images/mx3@2x.png) 2x);
+}
+
+.meizu-header-link-product:hover .meizu-header-sub,
+	.meizu-header-link-product.hover .meizu-header-sub {
+	display: block;
+}
+
+.meizu-header-link-product:hover .meizu-header-link-product-a,
+	.meizu-header-link-product.hover .meizu-header-link-product-a {
+	color: #31a5e7;
+}
+
+@media screen and (max-width: 1080px) {
+	.meizu-header {
+		width: 1080px;
+	}
+}
+</style>
+
+			<nav>
+				<div class="meizu-header">
+					<div class="meizu-header-wrap">
+						<div class="meizu-header-logo">
+							<a href="http://www.meizu.com/index.html"
+								class="meizu-header-logo-img"></a>
+						</div>
+						<div class="meizu-header-log">
+							<div id="_unlogin" class="meizu-header-login">
+								<a href="./index.html">English</a> | <a href="#">Français</a> |
+								<a href="#">Deutsch</a> | <a href="#">Portugal</a> | <a href="#">España</a>
+							</div>
+							<div id="_islogin" class="meizu-header-logout"
+								style="display: none;">
+								<a href="https://member.meizu.com/uc/webjsp/member/detail"
+									id="mzCustName"></a> | <a
+									href="javascript:window.location.href = 'http://www.meizu.com/accounts/logout?useruri='+encodeURIComponent(window.location.href);">退出</a>
+							</div>
+						</div>
+						<ul class="meizu-header-link">
+							<li><a href="http://store.meizu.com/">Home</a></li>
+							<li id="meizu-header-link-product"
+								class="meizu-header-link-product"><a href=""
+								class="meizu-header-link-product-a" onclick="return false;">Products</a>
+							</li>
+							<li><a href="http://retail.meizu.com/">Search</a></li>
+							<li><a href="http://www.flyme.cn" target="_blank">News</a></li>
+							<li><a href="http://service.meizu.com/index.html">About
+									Us</a></li>
+							<li><a href="http://bbs.meizu.cn/" target="_blank">contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div id="meizu-header-sub" class="meizu-header-sub">
+					<div class="meizu-header-wrap-sub">
+						<ul class="meizu-header-sub-products">
+							<li class="meizu-header-sub-product" style="padding-left: 273px;">
+								<a class="a-mx4"
+								href="http://www.meizu.com/products/mx4profun.html">
+									<div class="meizu-header-sub-img mx4"></div>
+									<p class="meizu-header-sub-desc">parts</p>
+							</a>
+							</li>
+							<li class="meizu-header-sub-product"><a class="a-mx3"
+								href="http://www.meizu.com/products/mx4fun.html">
+									<div class="meizu-header-sub-img mx3"></div>
+									<p class="meizu-header-sub-desc">nozzle orifices</p>
+							</a></li>
+							<li class="meizu-header-sub-product"><a class="a-mx2"
+								href="http://www.meizu.com/products/mx3fun.html">
+									<div class="meizu-header-sub-img mx2"></div>
+									<p class="meizu-header-sub-desc">water jet cutting pumps</p>
+							</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<div class="hotspot">
+			<div class="wrapper">
+
+				<div class="row">
+					<div class="col-8-24 hotspot-1" style="width: 25%;">
+						<!-- html  start-->
+						<div id="firstpaneDiv" class="menu_list">
+							<h3 class="menu_head current">Parts</h3>
+							<div style="display: block" class="menu_nva">
+								<a href="#">KMT</a> <a href="#">账户管理</a> <a href="#">日志管理</a> <a
+									href="#">角色管理</a> <a href="#">编码管理</a> <a href="#">操作日志</a> <a
+									href="#">流程管理</a>
+							</div>
+							<h3 class="menu_head">Nozzle Orifices</h3>
+							<div style="display: none" class="menu_nva">
+								<a href="#">KMT</a> <a href="#">FLOW</a> <a href="#">用例3xx</a> <a
+									href="#">用例4xx</a> <a href="#">用例5xx</a> <a href="#">用例6xx</a>
+								<a href="#">用例7xx</a> <a href="#">用例8xx</a>
+							</div>
+							<h3 class="menu_head">Water Jet Cutting Pumps</h3>
+							<div style="display: none" class="menu_nva">
+								<a href="#">KMT</a> <a href="#">FLOW</a> <a href="#">用例3xx</a> <a
+									href="#">用例4xx</a> <a href="#">用例5xx</a> <a href="#">用例6xx</a>
+								<a href="#">用例7xx</a> <a href="#">用例8xx</a>
+							</div>
+							<h3 class="menu_head">Water Jet Cutting Machine</h3>
+							<div style="display: none" class="menu_nva">
+								<a href="#">KMT</a> <a href="#">FLOW</a> <a href="#">JET
+									EDGE</a> <a href="#">BFT</a> <a href="#">用例5xx</a> <a href="#">用例6xx</a>
+								<a href="#">用例7xx</a> <a href="#">用例8xx</a>
+							</div>
+
+							<iframe src="./footer.html" scrolling="no" height="420"
+								width="100%" frameborder="0" border="0" style="width: 100%">
+							</iframe>
+
+							<!-- html  end-->
+						</div>
+						<div class="col-8-24 hotspot-2" style="width: 75%;">
+							Waterjet Spare Parts
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- script  代码-->
+		<script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(
+					function() {
+						$("#firstpaneDiv .menu_nva:eq(0)").show();
+						$("#firstpaneDiv h3.menu_head").click(
+								function() {
+									$(this).addClass("current").next(
+											"div.menu_nva").slideToggle(200)
+											.siblings("div.menu_nva").slideUp(
+													"slow");
+									$(this).siblings().removeClass("current");
+								});
+						$("#secondpane .menu_nva:eq(0)").show();
+						$("#secondpane h3.menu_head").mouseover(
+								function() {
+									$(this).addClass("current").next(
+											"div.menu_nva").slideDown(400)
+											.siblings("div.menu_nva").slideUp(
+													"slow");
+									$(this).siblings().removeClass("current");
+								});
+					});
+		</script>
+		
+		<script src="./js/jquery.min.js."></script>
+        <script src="./js/common.js"></script>
+        <script src="./js/pre-index.js"></script>
+		<script src="./layer/layer.js"></script><!--弹出窗口的JS 下载http://layer.layui.com/-->
 </body>
 
 </html>

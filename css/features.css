@@ -3,7 +3,7 @@
 }
 
 .slider {
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 24px;
 	color: #333
 }
@@ -303,7 +303,7 @@
 
 .net-desc {
 	position: relative;
-	top: 264px;
+	top: 80px;
 	width: 310px
 }
 
@@ -313,14 +313,14 @@
 
 .net-img {
 	position: absolute;
-	top: 100px;
-	left: 50%;
+	top: 80px;
+	left: 36%;
 	margin-left: -150px
 }
 
 .net-img img {
-	width: 950px;
-	height: 978px
+	width: 180px;
+	height: 180px
 }
 
 .net-desc ul {
@@ -538,7 +538,7 @@
 	background-color: #000;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-image: url(../images/front_camera_shoot.jpg);
+	background-image: url(../images-kmt/kmt-220-220.jpg);
 	background-image: -webkit-image-set(url(../images/front_camera_shoot.jpg) 1x,
 		url(../images/front_camera_shoot@2x.jpg) 2x)
 }

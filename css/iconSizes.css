@@ -1,0 +1,155 @@
+.social-icon-24{display:inline-block;width:24px;height:24px;vertical-align:middle}
+.social-icon-24.social-icon-facebook{background:url(../images/follow-service.png) no-repeat 0 0 #3b5998}
+.social-icon-24.social-icon-googleplus{background:url(../images/follow-service.png) no-repeat 0 -64px #d14836}
+.social-icon-24.social-icon-linkedin{background:url(../images/follow-service.png) no-repeat 0 -128px #007fb1}
+.social-icon-24.social-icon-sinaweibo{background:url(../images/follow-service.png) no-repeat 0 -192px #e6162d}
+.social-icon-24.social-icon-twitter{background:url(../images/follow-service.png) no-repeat 0 -256px #00aced}
+.social-icon-24.social-icon-youtube{background:url(../images/follow-service.png) no-repeat 0 -320px #cd332d}
+.social-icon-24.social-icon-qzone{background:url(../images/follow-service.png) no-repeat 0 -704px #ffc028}
+.social-icon-24.social-icon-renren{background:url(../images/follow-service.png) no-repeat 0 -768px #005baa}
+.social-icon-24.social-icon-douban{background:url(../images/follow-service.png) no-repeat 0 -832px #228a31}
+.social-icon-24.social-icon-tweibo{background:url(../images/follow-service.png) no-repeat 0 -896px #4cb4e6}
+.social-icon-24.social-icon-instagram{background:url(../images/follow-service.png) no-repeat 0 -960px #3f729b}
+.social-icon-24.social-icon-wechat{background:url(../images/follow-service.png) no-repeat 0 -1024px #8dc61f}
+.social-icon-24.social-icon-pinterest{background:url(../images/follow-service.png) no-repeat 0 -1088px #bd081c}
+.social-icon-24.social-icon-youku{background:url(../images/follow-service.png) no-repeat 0 -1152px #ff3b3b}
+.social-icon-24.social-icon-alone-default.social-icon-facebook{background:url(../images/follow-service.png) no-repeat -600px 0}
+.social-icon-24.social-icon-alone-default.social-icon-googleplus{background:url(../images/follow-service.png) no-repeat -600px -64px}
+.social-icon-24.social-icon-alone-default.social-icon-linkedin{background:url(../images/follow-service.png) no-repeat -600px -128px}
+.social-icon-24.social-icon-alone-default.social-icon-sinaweibo{background:url(../images/follow-service.png) no-repeat -600px -192px}
+.social-icon-24.social-icon-alone-default.social-icon-twitter{background:url(../images/follow-service.png) no-repeat -600px -256px}
+.social-icon-24.social-icon-alone-default.social-icon-youtube{background:url(../images/follow-service.png) no-repeat -600px -320px}
+.social-icon-24.social-icon-alone-default.social-icon-qzone{background:url(../images/follow-service.png) no-repeat -600px -704px}
+.social-icon-24.social-icon-alone-default.social-icon-renren{background:url(../images/follow-service.png) no-repeat -600px -768px}
+.social-icon-24.social-icon-alone-default.social-icon-douban{background:url(../images/follow-service.png) no-repeat -600px -832px}
+.social-icon-24.social-icon-alone-default.social-icon-tweibo{background:url(../images/follow-service.png) no-repeat -600px -896px}
+.social-icon-24.social-icon-alone-default.social-icon-instagram{background:url(../images/follow-service.png) no-repeat -600px -960px}
+.social-icon-24.social-icon-alone-default.social-icon-wechat{background:url(../images/follow-service.png) no-repeat -600px -1024px}
+.social-icon-24.social-icon-alone-default.social-icon-pinterest{background:url(../images/follow-service.png) no-repeat -600px -1088px}
+.social-icon-24.social-icon-alone-default.social-icon-youku{background:url(../images/follow-service.png) no-repeat -600px -1152px}
+.social-icon-24.social-icon-alone-greycolor.social-icon-facebook{background:url(../images/follow-service.png) no-repeat -200px 0}
+.social-icon-24.social-icon-alone-greycolor.social-icon-googleplus{background:url(../images/follow-service.png) no-repeat -200px -64px}
+.social-icon-24.social-icon-alone-greycolor.social-icon-linkedin{background:url(../images/follow-service.png) no-repeat -200px -128px}
+.social-icon-24.social-icon-alone-greycolor.social-icon-sinaweibo{background:url(../images/follow-service.png) no-repeat -200px -192px}
+.social-icon-24.social-icon-alone-greycolor.social-icon-twitter{background:url(../images/follow-service.png) no-repeat -200px -256px}
+.social-icon-24.social-icon-alone-greycolor.social-icon-youtube{background:url(../images/follow-service.png) no-repeat -200px -320px}
+.social-icon-24.social-icon-alone-greycolor.social-icon-qzone{background:url(../images/follow-service.png) no-repeat -200px -704px}
+.social-icon-24.social-icon-alone-greycolor.social-icon-renren{background:url(../images/follow-service.png) no-repeat -200px -768px}
+.social-icon-24.social-icon-alone-greycolor.social-icon-douban{background:url(../images/follow-service.png) no-repeat -200px -832px}
+.social-icon-24.social-icon-alone-greycolor.social-icon-tweibo{background:url(../images/follow-service.png) no-repeat -200px -896px}
+.social-icon-24.social-icon-alone-greycolor.social-icon-instagram{background:url(../images/follow-service.png) no-repeat -200px -960px}
+.social-icon-24.social-icon-alone-greycolor.social-icon-wechat{background:url(../images/follow-service.png) no-repeat -200px -1024px}
+.social-icon-24.social-icon-alone-greycolor.social-icon-pinterest{background:url(../images/follow-service.png) no-repeat -200px -1088px}
+.social-icon-24.social-icon-alone-greycolor.social-icon-youku{background:url(../images/follow-service.png) no-repeat -201px -1152px}
+.social-icon-24.social-icon-alone-greycolor.social-icon-facebook:hover{background:url(../images/follow-service.png) no-repeat -600px 0}
+.social-icon-24.social-icon-alone-greycolor.social-icon-googleplus:hover{background:url(../images/follow-service.png) no-repeat -600px -64px}
+.social-icon-24.social-icon-alone-greycolor.social-icon-linkedin:hover{background:url(../images/follow-service.png) no-repeat -600px -128px}
+.social-icon-24.social-icon-alone-greycolor.social-icon-sinaweibo:hover{background:url(../images/follow-service.png) no-repeat -600px -192px}
+.social-icon-24.social-icon-alone-greycolor.social-icon-twitter:hover{background:url(../images/follow-service.png) no-repeat -600px -256px}
+.social-icon-24.social-icon-alone-greycolor.social-icon-youtube:hover{background:url(../images/follow-service.png) no-repeat -600px -320px}
+.social-icon-24.social-icon-alone-greycolor.social-icon-qzone:hover{background:url(../images/follow-service.png) no-repeat -600px -704px}
+.social-icon-24.social-icon-alone-greycolor.social-icon-renren:hover{background:url(../images/follow-service.png) no-repeat -600px -768px}
+.social-icon-24.social-icon-alone-greycolor.social-icon-douban:hover{background:url(../images/follow-service.png) no-repeat -600px -832px}
+.social-icon-24.social-icon-alone-greycolor.social-icon-tweibo:hover{background:url(../images/follow-service.png) no-repeat -600px -896px}
+.social-icon-24.social-icon-alone-greycolor.social-icon-instagram:hover{background:url(../images/follow-service.png) no-repeat -600px -960px}
+.social-icon-24.social-icon-alone-greycolor.social-icon-wechat:hover{background:url(../images/follow-service.png) no-repeat -600px -1024px}
+.social-icon-24.social-icon-alone-greycolor.social-icon-pinterest:hover{background:url(../images/follow-service.png) no-repeat -600px -1088px}
+.social-icon-24.social-icon-alone-greycolor.social-icon-youku:hover{background:url(../images/follow-service.png) no-repeat -600px -1152px}
+.social-icon-24.social-icon-white.social-icon-facebook{background:url(../images/follow-service.png) no-repeat 0 0}
+.social-icon-24.social-icon-white.social-icon-googleplus{background:url(../images/follow-service.png) no-repeat 0px -64px}
+.social-icon-24.social-icon-white.social-icon-linkedin{background:url(../images/follow-service.png) no-repeat 0px -128px}
+.social-icon-24.social-icon-white.social-icon-sinaweibo{background:url(../images/follow-service.png) no-repeat 0px -192px}
+.social-icon-24.social-icon-white.social-icon-twitter{background:url(../images/follow-service.png) no-repeat 0px -256px}
+.social-icon-24.social-icon-white.social-icon-youtube{background:url(../images/follow-service.png) no-repeat 0px -320px}
+.social-icon-24.social-icon-white.social-icon-qzone{background:url(../images/follow-service.png) no-repeat 0px -704px}
+.social-icon-24.social-icon-white.social-icon-renren{background:url(../images/follow-service.png) no-repeat 0px -768px}
+.social-icon-24.social-icon-white.social-icon-douban{background:url(../images/follow-service.png) no-repeat 0px -832px}
+.social-icon-24.social-icon-white.social-icon-tweibo{background:url(../images/follow-service.png) no-repeat 0px -896px}
+.social-icon-24.social-icon-white.social-icon-instagram{background:url(../images/follow-service.png) no-repeat 0px -960px}
+.social-icon-24.social-icon-white.social-icon-wechat{background:url(../images/follow-service.png) no-repeat 0px -1024px}
+.social-icon-24.social-icon-white.social-icon-pinterest{background:url(../images/follow-service.png) no-repeat 0px -1088px}
+.social-icon-24.social-icon-white.social-icon-youku{background:url(../images/follow-service.png) no-repeat 1px -1152px}
+.social-icon-24.social-icon-white.social-icon-facebook:hover{background:url(../images/follow-service.png) no-repeat -600px 0}
+.social-icon-24.social-icon-white.social-icon-googleplus:hover{background:url(../images/follow-service.png) no-repeat -600px -64px}
+.social-icon-24.social-icon-white.social-icon-linkedin:hover{background:url(../images/follow-service.png) no-repeat -600px -128px}
+.social-icon-24.social-icon-white.social-icon-sinaweibo:hover{background:url(../images/follow-service.png) no-repeat -600px -192px}
+.social-icon-24.social-icon-white.social-icon-twitter:hover{background:url(../images/follow-service.png) no-repeat -600px -256px}
+.social-icon-24.social-icon-white.social-icon-youtube:hover{background:url(../images/follow-service.png) no-repeat -600px -320px}
+.social-icon-24.social-icon-white.social-icon-qzone:hover{background:url(../images/follow-service.png) no-repeat -600px -704px}
+.social-icon-24.social-icon-white.social-icon-renren:hover{background:url(../images/follow-service.png) no-repeat -600px -768px}
+.social-icon-24.social-icon-white.social-icon-douban:hover{background:url(../images/follow-service.png) no-repeat -600px -832px}
+.social-icon-24.social-icon-white.social-icon-tweibo:hover{background:url(../images/follow-service.png) no-repeat -600px -896px}
+.social-icon-24.social-icon-white.social-icon-instagram:hover{background:url(../images/follow-service.png) no-repeat -600px -960px}
+.social-icon-24.social-icon-white.social-icon-wechat:hover{background:url(../images/follow-service.png) no-repeat -600px -1024px}
+.social-icon-24.social-icon-white.social-icon-pinterest:hover{background:url(../images/follow-service.png) no-repeat -600px -1088px}
+.social-icon-24.social-icon-white.social-icon-youku:hover{background:url(../images/follow-service.png) no-repeat -600px -1152px}
+.social-icon-24.social-icon-whitehover.social-icon-facebook{background:url(../images/follow-service11.png) no-repeat -298px 0}
+.social-icon-24.social-icon-whitehover.social-icon-googleplus{background:url(../images/follow-service11.png) no-repeat -297px -63px}
+.social-icon-24.social-icon-whitehover.social-icon-linkedin{background:url(../images/follow-service11.png) no-repeat -298px -129px}
+.social-icon-24.social-icon-whitehover.social-icon-sinaweibo{background:url(../images/follow-service11.png) no-repeat -298px -193px}
+.social-icon-24.social-icon-whitehover.social-icon-twitter{background:url(../images/follow-service11.png) no-repeat -298px -257px}
+.social-icon-24.social-icon-whitehover.social-icon-youtube{background:url(../images/follow-service11.png) no-repeat -298px -321px}
+.social-icon-24.social-icon-whitehover.social-icon-qzone{background:url(../images/follow-service11.png) no-repeat -299px -704px}
+.social-icon-24.social-icon-whitehover.social-icon-renren{background:url(../images/follow-service11.png) no-repeat -298px -768px}
+.social-icon-24.social-icon-whitehover.social-icon-douban{background:url(../images/follow-service11.png) no-repeat -298px -831px;height:26px}
+.social-icon-24.social-icon-whitehover.social-icon-tweibo{background:url(../images/follow-service11.png) no-repeat -298px -896px}
+.social-icon-24.social-icon-whitehover.social-icon-instagram{background:url(../images/follow-service11.png) no-repeat -297px -959px;width:26px;height:26px}
+.social-icon-24.social-icon-whitehover.social-icon-wechat{background:url(../images/follow-service11.png) no-repeat -299px -1024px}
+.social-icon-24.social-icon-whitehover.social-icon-pinterest{background:url(../images/follow-service11.png) no-repeat -299px -1088px}
+.social-icon-24.social-icon-whitehover.social-icon-youku{background:url(../images/follow-service11.png) no-repeat -299px -1154px}
+.social-icon-24.social-icon-whitehover.social-icon-facebook:hover{background:url(../images/follow-service11.png) no-repeat -298px 0}
+.social-icon-24.social-icon-whitehover.social-icon-googleplus:hover{background:url(../images/follow-service11.png) no-repeat -297px -63px}
+.social-icon-24.social-icon-whitehover.social-icon-linkedin:hover{background:url(../images/follow-service11.png) no-repeat -298px -129px}
+.social-icon-24.social-icon-whitehover.social-icon-sinaweibo:hover{background:url(../images/follow-service11.png) no-repeat -298px -193px}
+.social-icon-24.social-icon-whitehover.social-icon-twitter:hover{background:url(../images/follow-service11.png) no-repeat -298px -257px}
+.social-icon-24.social-icon-whitehover.social-icon-youtube:hover{background:url(../images/follow-service11.png) no-repeat -298px -321px}
+.social-icon-24.social-icon-whitehover.social-icon-qzone:hover{background:url(../images/follow-service11.png) no-repeat -299px -704px}
+.social-icon-24.social-icon-whitehover.social-icon-renren:hover{background:url(../images/follow-service11.png) no-repeat -298px -768px}
+.social-icon-24.social-icon-whitehover.social-icon-douban:hover{background:url(../images/follow-service11.png) no-repeat -298px -831px;height:26px}
+.social-icon-24.social-icon-whitehover.social-icon-tweibo:hover{background:url(../images/follow-service11.png) no-repeat -298px -896px}
+.social-icon-24.social-icon-whitehover.social-icon-instagram:hover{background:url(../images/follow-service11.png) no-repeat -297px -959px;width:26px;height:26px}
+.social-icon-24.social-icon-whitehover.social-icon-wechat:hover{background:url(../images/follow-service11.png) no-repeat -299px -1024px}
+.social-icon-24.social-icon-whitehover.social-icon-pinterest:hover{background:url(../images/follow-service11.png) no-repeat -299px -1088px}
+.social-icon-24.social-icon-whitehover.social-icon-youku:hover{background:url(../images/follow-service11.png) no-repeat -299px -1154px}
+.social-icon-24.social-icon-ring-default.social-icon-facebook{background:url(../images/social-icons-c.png) no-repeat -200px 0}
+.social-icon-24.social-icon-ring-default.social-icon-googleplus{background:url(../images/social-icons-c.png) no-repeat -200px -64px}
+.social-icon-24.social-icon-ring-default.social-icon-linkedin{background:url(../images/social-icons-c.png) no-repeat -200px -128px}
+.social-icon-24.social-icon-ring-default.social-icon-sinaweibo{background:url(../images/social-icons-c.png) no-repeat -200px -192px}
+.social-icon-24.social-icon-ring-default.social-icon-twitter{background:url(../images/social-icons-c.png) no-repeat -200px -256px}
+.social-icon-24.social-icon-ring-default.social-icon-youtube{background:url(../images/social-icons-c.png) no-repeat -200px -320px}
+.social-icon-24.social-icon-ring-default.social-icon-qzone{background:url(../images/social-icons-c.png) no-repeat -200px -704px}
+.social-icon-24.social-icon-ring-default.social-icon-renren{background:url(../images/social-icons-c.png) no-repeat -200px -768px}
+.social-icon-24.social-icon-ring-default.social-icon-douban{background:url(../images/social-icons-c.png) no-repeat -200px -832px}
+.social-icon-24.social-icon-ring-default.social-icon-tweibo{background:url(../images/social-icons-c.png) no-repeat -200px -896px}
+.social-icon-24.social-icon-ring-default.social-icon-instagram{background:url(../images/social-icons-c.png) no-repeat -200px -960px}
+.social-icon-24.social-icon-ring-default.social-icon-wechat{background:url(../images/social-icons-c.png) no-repeat -200px -1024px}
+.social-icon-24.social-icon-ring-default.social-icon-pinterest{background:url(../images/social-icons-c.png) no-repeat -200px -1088px}
+.social-icon-24.social-icon-ring-default.social-icon-youku{background:url(../images/social-icons-c.png) no-repeat -200px -1152px}
+.social-icon-24.social-icon-ring-greycolor.social-icon-facebook{background:url(../images/social-icons-c.png) no-repeat 0 0}
+.social-icon-24.social-icon-ring-greycolor.social-icon-googleplus{background:url(../images/social-icons-c.png) no-repeat 0 -64px}
+.social-icon-24.social-icon-ring-greycolor.social-icon-linkedin{background:url(../images/social-icons-c.png) no-repeat 0 -128px}
+.social-icon-24.social-icon-ring-greycolor.social-icon-sinaweibo{background:url(../images/social-icons-c.png) no-repeat 0 -192px}
+.social-icon-24.social-icon-ring-greycolor.social-icon-twitter{background:url(../images/social-icons-c.png) no-repeat 0 -256px}
+.social-icon-24.social-icon-ring-greycolor.social-icon-youtube{background:url(../images/social-icons-c.png) no-repeat 0 -320px}
+.social-icon-24.social-icon-ring-greycolor.social-icon-qzone{background:url(../images/social-icons-c.png) no-repeat 0 -704px}
+.social-icon-24.social-icon-ring-greycolor.social-icon-renren{background:url(../images/social-icons-c.png) no-repeat 0 -768px}
+.social-icon-24.social-icon-ring-greycolor.social-icon-douban{background:url(../images/social-icons-c.png) no-repeat 0 -832px}
+.social-icon-24.social-icon-ring-greycolor.social-icon-tweibo{background:url(../images/social-icons-c.png) no-repeat 0 -896px}
+.social-icon-24.social-icon-ring-greycolor.social-icon-instagram{background:url(../images/social-icons-c.png) no-repeat 0 -960px}
+.social-icon-24.social-icon-ring-greycolor.social-icon-wechat{background:url(../images/social-icons-c.png) no-repeat 0 -1024px}
+.social-icon-24.social-icon-ring-greycolor.social-icon-pinterest{background:url(../images/social-icons-c.png) no-repeat 0 -1088px}
+.social-icon-24.social-icon-ring-greycolor.social-icon-youku{background:url(../images/social-icons-c.png) no-repeat 0 -1152px}
+.social-icon-24.social-icon-ring-greycolor.social-icon-facebook:hover{background:url(../images/social-icons-c.png) no-repeat -200px 0}
+.social-icon-24.social-icon-ring-greycolor.social-icon-googleplus:hover{background:url(../images/social-icons-c.png) no-repeat -200px -64px}
+.social-icon-24.social-icon-ring-greycolor.social-icon-linkedin:hover{background:url(../images/social-icons-c.png) no-repeat -200px -128px}
+.social-icon-24.social-icon-ring-greycolor.social-icon-sinaweibo:hover{background:url(../images/social-icons-c.png) no-repeat -200px -192px}
+.social-icon-24.social-icon-ring-greycolor.social-icon-twitter:hover{background:url(../images/social-icons-c.png) no-repeat -200px -256px}
+.social-icon-24.social-icon-ring-greycolor.social-icon-youtube:hover{background:url(../images/social-icons-c.png) no-repeat -200px -320px}
+.social-icon-24.social-icon-ring-greycolor.social-icon-qzone:hover{background:url(../images/social-icons-c.png) no-repeat -200px -704px}
+.social-icon-24.social-icon-ring-greycolor.social-icon-renren:hover{background:url(../images/social-icons-c.png) no-repeat -200px -768px}
+.social-icon-24.social-icon-ring-greycolor.social-icon-douban:hover{background:url(../images/social-icons-c.png) no-repeat -200px -832px}
+.social-icon-24.social-icon-ring-greycolor.social-icon-tweibo:hover{background:url(../images/social-icons-c.png) no-repeat -200px -896px}
+.social-icon-24.social-icon-ring-greycolor.social-icon-instagram:hover{background:url(../images/social-icons-c.png) no-repeat -200px -960px}
+.social-icon-24.social-icon-ring-greycolor.social-icon-wechat:hover{background:url(../images/social-icons-c.png) no-repeat -200px -1024px}
+.social-icon-24.social-icon-ring-greycolor.social-icon-pinterest:hover{background:url(../images/social-icons-c.png) no-repeat -200px -1088px}
+.social-icon-24.social-icon-ring-greycolor.social-icon-youku:hover{background:url(../images/social-icons-c.png) no-repeat -200px -1152px}

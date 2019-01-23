@@ -1,0 +1,178 @@
+<link rel="stylesheet" href="./css/base.css">
+<link rel="stylesheet" href="./css/common.css">
+<link rel="stylesheet" href="./css/features.css">
+<link rel="stylesheet" href="./css/header.css">
+
+<div id="mynav" class="meizu-header">
+		<div class="meizu-header-wrap">
+			<div class="meizu-header-logo">
+				<a href="./index.html" class="meizu-header-logo-img"></a>
+			</div>
+			<div class="meizu-header-log">
+				<div class="meizu-header-login" id="_unlogin">
+					<a href="./index.html">English</a> | <a href="#">Français</a> | <a
+						href="#">Deutsch</a> | <a href="#">Portugal</a> | <a href="#">España</a>
+				</div>
+				<div class="meizu-header-logout" id="_islogin"
+					style="display: none;">
+					<a href="https://member.meizu.com/uc/webjsp/member/detail"
+						id="mzCustName"></a> | <a
+						href="javascript:window.location.href = _logout">退出</a>
+				</div>
+			</div>
+			<ul class="meizu-header-link">
+				<li><a href="http://store.meizu.com/">Home</a></li>
+				<li id="meizu-header-link-product" class="meizu-header-link-product">
+					<a href="" class="meizu-header-link-product-a hover"
+					onclick="return false;">Products</a>
+					<div id="meizu-header-sub" class="meizu-header-sub">
+						<div class="meizu-header-wrap-sub">
+							<ul class="meizu-header-sub-products">
+								<li class="meizu-header-sub-product"
+									style="padding-left: 273px;"><a class="a-prod1"
+									href="./product-1.html">
+										<div class="meizu-header-sub-img prod1"></div>
+										<p class="meizu-header-sub-desc">KMT</p>
+								</a></li>
+								<li class="meizu-header-sub-product"><a class="a-prod2"
+									href="http://www.meizu.com/products/mx4fun.html">
+										<div class="meizu-header-sub-img prod2"></div>
+										<p class="meizu-header-sub-desc">FLOW</p>
+								</a></li>
+								<li class="meizu-header-sub-product"><a class="a-prod3"
+									href="http://www.meizu.com/products/mx3fun.html">
+										<div class="meizu-header-sub-img prod3"></div>
+										<p class="meizu-header-sub-desc">JET EDGE</p>
+								</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li><a href="http://retail.meizu.com/">Search</a></li>
+				<li><a target="_blank" href="http://www.flyme.cn">News</a></li>
+				<li><a href="http://service.meizu.com/index.html">About Us</a>
+				</li>
+				<li><a target="_blank" href="http://bbs.meizu.cn/">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script>
+    (function(w, d) {
+        var sub = d.getElementById('meizu-header-sub'),
+                product = d.getElementById('meizu-header-link-product'),
+                addHandle = function(element, type, handler) {
+                    if (element.addEventListener) {
+                        element.addEventListener(type, handler, false);
+                    } else if (element.attachEvent) {
+                        element.attachEvent('on' + type, handler);
+                    } else {
+                        element['on' + type] = handler;
+                    }
+                },
+                getEvent = function(event) {
+                    return event ? event : w.event;
+                },
+                getTarget = function(event) {
+                    return event.target || event.srcElement;
+                },
+                setOpacity = function(element, num) {
+                    element.style.opacity = num;
+                },
+                handler = function(event) {
+                    event = getEvent(event);
+                    var target = getTarget(event);
+                    if (target.className === 'a-prod1') {
+                        setOpacity(arr['a-prod1'], 1);
+                        setOpacity(arr['a-prod2'], 0.5);
+                        setOpacity(arr['a-prod3'], 0.5);
+                    } else if (target.className === 'a-prod2') {
+                        setOpacity(arr['a-prod1'], 0.5);
+                        setOpacity(arr['a-prod2'], 1);
+                        setOpacity(arr['a-prod3'], 0.5);
+                    } else if (target.className === 'a-prod3') {
+                        setOpacity(arr['a-prod1'], 0.5);
+                        setOpacity(arr['a-prod2'], 0.5);
+                        setOpacity(arr['a-prod3'], 1);
+                    }
+                },
+                clear = function() {
+                    setOpacity(arr['a-prod1'], 1);
+                    setOpacity(arr['a-prod2'], 1);
+                    setOpacity(arr['a-prod3'], 1);
+                },
+                isMobile = function () {
+                  return !!navigator.userAgent.match(/android|webos|ip(hone|ad|od)|opera (mini|mobi|tablet)|iemobile|windows.+(phone|touch)|mobile|fennec|kindle (Fire)|Silk|maemo|blackberry|playbook|bb10\; (touch|kbd)|Symbian(OS)|Ubuntu Touch/i);
+                },
+                a = sub.getElementsByTagName('a'),
+                arr = [];
+        for (var i = a.length - 1; i >= 0; i--) {
+            arr[a[i].className] = a[i];
+            addHandle(a[i].parentNode, 'mouseover', handler);
+        }
+        ;
+        addHandle(product, 'mouseleave', clear);
+        if (isMobile()) {
+          sub.style.width = '110%';
+        }
+    })(window, document);
+    
+    var _local_url = window.location.href;
+        
+    if(_local_url.indexOf('http://meizu.com')===0){
+        _local_url = _local_url.replace('http://meizu','http://www.meizu');
+    }
+    var _register = "https://member.meizu.com/register?lang=cn&service=www&appuri=http%3A%2F%2Fwww.meizu.com%2Faccounts%2Flogin&useruri=" + encodeURIComponent(_local_url);
+    var _login = "https://member.meizu.com/login/login.html?lang=cn&service=www&appuri=http%3A%2F%2Fwww.meizu.com%2Faccounts%2Flogin&useruri=" + encodeURIComponent(_local_url);
+    var _logout = 'http://www.meizu.com/accounts/logout?useruri='+encodeURIComponent(_local_url);
+        var _isLogin = getCookie("_islogin");
+    if (_isLogin === 'true') {
+        window.document.write("<script src='https://member.meizu.com/service/accounts/fetchOrder.jsonp?callback=getFlymeAndOrderNumber&v=" + Math.random() + "'><\/script>");
+    } else {
+        window.document.getElementById("_islogin").style.display = 'none';
+        window.document.getElementById("_unlogin").style.display = 'inline';
+    }
+    function getCookie(a){for(var b=document.cookie.split("; "),c=0;c<b.length;c++){var d=b[c].split("=");if(d[0]==a)return unescape(d[1])}}function getFlymeAndOrderNumber(a){if("undefined"!=typeof a&&a&&"undefined"!=typeof a.reply&&a.reply){var b=a.reply;"undefined"!=typeof b.error?(window.document.getElementById("_unlogin").style.display="inline",window.document.getElementById("_islogin").style.display="none"):(window.document.getElementById("_unlogin").style.display="none",window.document.getElementById("_islogin").style.display="inline","undefined"!=typeof b.flyme&&""!==b.flyme&&(window.document.getElementById("mzCustName").title=b.flyme,window.document.getElementById("mzCustName").innerHTML=__Sub(b.flyme,4)))}}function __Sub(a,b){var c=/[^\x00-\xff]/g,d=a.replace(c,"**"),e=d.length;if(!(e>b))return a;for(var f=Math.floor(b/2),g=a.length,h=f;g>h;h++){var i=a.substr(0,h).replace(c,"**");if(i.length>=b)return a.substr(0,h)+"..."}}
+</script>
+	<!--[if lte ie 6]>
+  <script>
+    (function (w, d) {
+      var addHandle = function (element, type, handler) {
+            if (element.addEventListener) {
+              element.addEventListener(type, handler, false);
+            } else if (element.attachEvent) {
+              element.attachEvent('on' + type, handler);
+            } else {
+              element['on' + type] = handler;
+            }
+          },
+          mouseover = function () {
+            if (product.className.indexOf('hover') === -1) {
+              product.className += ' hover';
+            }
+          },
+          mouseout = function () {
+            if (product.className.indexOf('hover') !== -1) {
+              product.className = product.className.replace(' hover', '');
+            }
+          },
+          forEach = function (element, id) {
+            for (var i = element.length - 1; i >= 0; i--) {
+              if (element[i].id === id) {
+                return element[i];
+              }
+            };
+          },
+          product = d.getElementById('meizu-header-link-product'),
+          sub = forEach(product.getElementsByTagName('div'), 'meizu-header-sub');
+      addHandle(product, 'mouseover', mouseover);
+      addHandle(product, 'mouseout', mouseout);
+      sub.style.width = d.body.clientWidth + 'px';
+    })(window, document);
+  </script>
+<![endif]-->
+
+<script src="./js/jquery.min.js"></script>
+	<script src="./js/jquery.mousewheel.min.js"></script>
+	<script src="./js/common.js"></script>
+	<script src="./js/features.js"></script>

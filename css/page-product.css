@@ -556,12 +556,12 @@
 .standby-param .num0 {
   margin-top: 4px;
 }
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1180px) {
   .camera-wapper {
     width: 100%;
   }
   .wrapper {
-    width: 1080px;
+    width: 1180px;
   }
 }
 @media screen and (min-width: 1300px) {

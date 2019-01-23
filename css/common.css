@@ -1,5 +1,5 @@
 body.mac .slider,.slider h1,.slider h2,.link-group a,.button-group .button,.syht{
-	font-family:SYHT,"Microsoft Yahei","微软雅黑",Arial,Helvetica,sans-serif
+	font-family:Arial,Muli;
 }
 
 body.mac #meizu-footer .meizu-footer-link p{
@@ -95,7 +95,7 @@ body.mac #meizu-footer .meizu-footer-link p{
 }
 
 .button-primary,.button-selected,a.button-primary,a.button-selected{
-	background-color:#3db1fa;
+	background-color:#309684;
 	color:#fff
 }
 
@@ -119,7 +119,7 @@ body.mac #meizu-footer .meizu-footer-link p{
 .subnav-wrap{
 	overflow:hidden;
 	margin:0 auto;
-	width:1040px;
+	width:1140px;
 	padding:0 20px
 }
 
@@ -230,7 +230,7 @@ body.mac #meizu-footer .meizu-footer-link p{
 .mx4pro-page .center-wrapper{
 	position:relative;
 	top:0;
-	width:1040px;
+	width:1140px;
 	height:100%;
 	margin:0 auto
 }

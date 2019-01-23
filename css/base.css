@@ -92,13 +92,13 @@ ul,li{
 }
 
 body{
-	font-family:"微软雅黑","Microsoft Yahei",Arial,Helvetica,sans-serif,"宋体";
+	font-family:Arial,Muli;
 	font-size:14px;
 	color:#515151
 }
 
 button,input{
-	font-family:"微软雅黑","Microsoft Yahei",Arial,Helvetica,sans-serif,"宋体"
+	font-family:Arial,Muli;
 }
 
 .clearfix:after,.clearfix:before{

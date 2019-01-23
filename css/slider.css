@@ -1,0 +1,54 @@
+.slider-1 {
+	background-image: url('./images/pc_mx4proX1_nobt.jpg');
+	background-image: -webkit-image-set(url('./images/pc_mx4proX1_nobt.jpg') 1x,
+		url('./images/pc_mx4proX2_nobt.jpg') 2x);
+}
+
+.slider-2 {
+	background-image: url('./images/mx4pro19X1.jpg');
+	background-image: -webkit-image-set(url('./images/mx4pro19X1.jpg') 1x,
+		url('./images/mx4pro19X2.jpg') 2x);
+}
+
+.mx4pro-banner .button-group {
+	width: 370px;
+	margin: 0 auto;
+	left: 470px;
+	padding: 352px 0 0 0;
+}
+
+.mx4pro-banner .button-group a {
+	display: block;
+	width: 160px;
+	height: 58px;
+	line-height: 58px;
+	font-size: 26px;
+	color: #FFF;
+	text-align: center;
+}
+
+.mx4pro-banner .button-group .knowmore {
+	border: #e2e6e7 2px solid;
+	height: 54px;
+}
+
+.mx4pro-banner .button-group .booknow {
+	background-color: #309684;
+}
+
+.mx4pro-banner .button-group a:focus {
+	outline: 0
+}
+
+.link-group {
+	bottom: 401px;
+}
+
+.bullet {
+	margin-left: -38px;
+	width: 78px;
+}
+
+.bullet i {
+	font-size: 21px;
+}
