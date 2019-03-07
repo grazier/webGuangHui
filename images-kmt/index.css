@@ -1,0 +1,169 @@
+.ma-brief-list {
+	font-size: 14px;
+	line-height: 22px;
+	text-align: left;
+	padding: 10px 18px
+}
+
+.ma-brief-list dl {
+	width: 100%;
+	zoom: 1
+}
+
+.ma-brief-list dl:after {
+	visibility: hidden;
+	display: block;
+	height: 0;
+	font-size: 0;
+	content: " ";
+	clear: both
+}
+
+.ma-brief-list dt {
+	padding: 4px 0;
+	color: #666;
+	width: 100px;
+	float: left;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+.ma-brief-list dd {
+	padding: 4px 0 4px 100px;
+	color: #333;
+	width: auto;
+	margin: 0
+}
+
+.details-assurance-educate .ma-brief-item-val a {
+	margin: 0 24px 2px 0;
+	color: #333;
+	text-decoration: none
+}
+
+.details-assurance-educate .ma-brief-item-val a>i {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin: 0 2px 0 0;
+	vertical-align: middle
+}
+
+.details-assurance-educate .ma-brief-item-val a>i.icon-secure-payment {
+	width: 20px;
+	margin-right: 0
+}
+
+.details-assurance-educate i {
+	background-image:
+		url(//img.alicdn.com/tfs/TB1I5hRQFXXXXcZXFXXXXXXXXXX-270-266.png)
+}
+
+.details-assurance-educate i.icon-48hours {
+	background-position: -95px -189px
+}
+
+.details-assurance-educate i.icon-trade-assurance {
+	background-position: -185px -189px
+}
+
+.details-assurance-educate i.icon-secure-payment {
+	background-position: -159px -189px
+}
+
+.widget-trade-assurance-educate .list .item {
+	font-size: 12px;
+	color: #53647a;
+	line-height: 14px;
+	text-align: left
+}
+
+.details-assurance-educate span {
+	height: 20px;
+	display: inline-block;
+	margin: 0 4px -6px 0
+}
+
+.details-assurance-educate span.more {
+	width: 53px;
+	cursor: pointer
+}
+
+.details-assurance-educate .ma-brief-item-val span.more i.arrow {
+	background:
+		url(//img.alicdn.com/tfs/TB1I5hRQFXXXXcZXFXXXXXXXXXX-270-266.png) -5px
+		-5px no-repeat;
+	width: 12px;
+	height: 7px;
+	display: inline-block;
+	margin-left: 4px
+}
+
+.hide {
+	display: none
+}
+
+.details-assurance-educate .payment-item {
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	margin-right: 4px;
+	background-image:
+		url(//img.alicdn.com/tfs/TB1I5hRQFXXXXcZXFXXXXXXXXXX-270-266.png);
+	background-repeat: no-repeat
+}
+
+.details-assurance-educate .payment-item.visa {
+	background-position: -45px -231px
+}
+
+.details-assurance-educate .payment-item.mastercard {
+	background-position: -231px -45px
+}
+
+.details-assurance-educate .payment-item.tt {
+	background-position: -235px -161px
+}
+
+.details-assurance-educate .payment-item.e-checking {
+	width: 62px;
+	background-position: -123px -119px
+}
+
+.details-assurance-educate .payment-item.e-maestro {
+	background-position: -195px -119px
+}
+
+.details-assurance-educate .payment-item.e-webmoney {
+	width: 62px;
+	background-position: -5px -150px
+}
+
+.details-assurance-educate .payment-item-paylater {
+	display: inline-block;
+	width: 65px;
+	height: 20px;
+	margin-right: 4px;
+	background:
+		url(//img.alicdn.com/tfs/TB1hZLyECzqK1RjSZFjXXblCFXa-61-20.svg);
+	background-repeat: no-repeat
+}
+
+.details-assurance-educate .ta-protect {
+	font-size: 12px;
+	line-height: 21px;
+	color: #666;
+	margin-top: 3px
+}
+
+.details-assurance-educate .ta-protect .protect-item {
+	margin-right: 10px
+}
+
+.details-assurance-educate .ta-protect .protect-item-icon {
+	display: inline-block;
+	width: 21px;
+	height: 21px;
+	margin-right: 3px
+}

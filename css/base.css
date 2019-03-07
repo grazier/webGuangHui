@@ -138,9 +138,9 @@ button,input{
 }
 
 .row{
-	letter-spacing:-.31em;
+	letter-spacing:0em;
 	*letter-spacing:normal;
-	*word-spacing:-.43em;
+	*word-spacing:0em;
 	text-rendering:optimizespeed;
 	display:-webkit-flex;
 	-webkit-flex-flow:row wrap;
@@ -149,7 +149,7 @@ button,input{
 }
 
 .row{
-	word-spacing:-.43em
+	word-spacing:0em
 }
 
 .col-1,.col-1-1,.col-1-2,.col-1-3,.col-2-3,.col-1-4,.col-3-4,.col-1-5,.col-2-5,.col-3-5,.col-4-5,.col-5-5,.col-1-6,.col-5-6,.col-1-8,.col-3-8,.col-5-8,.col-7-8,.col-1-12,.col-5-12,.col-7-12,.col-11-12,.col-1-24,.col-2-24,.col-3-24,.col-4-24,.col-5-24,.col-6-24,.col-7-24,.col-8-24,.col-9-24,.col-10-24,.col-11-24,.col-12-24,.col-13-24,.col-14-24,.col-15-24,.col-16-24,.col-17-24,.col-18-24,.col-19-24,.col-20-24,.col-21-24,.col-22-24,.col-23-24,.col-24-24{

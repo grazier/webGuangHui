@@ -1,6 +1,6 @@
 (function (w, d) {
-  var sub2 = d.getElementById('meizu-header-sub'),
-      product2 = d.getElementById('meizu-header-link-product2'),
+  var sub2 = d.getElementById('win-win-header-sub'),
+      product2 = d.getElementById('win-win-header-link-product2'),
       addHandle2 = function (element, type, handler) {
         if (element.addEventListener) {
           element.addEventListener(type, handler, false);
@@ -52,8 +52,8 @@
 
 
 $(function () {
-  var product2 = $('#meizu-header-link-product2'),
-      subnav2 = $('#meizu-header-sub'),
+  var product2 = $('#win-win-header-link-product2'),
+      subnav2 = $('#win-win-header-sub'),
       nav2 = $('nav'),
       img2 = $('img[data-src]'),
       isRetina2 = function () {

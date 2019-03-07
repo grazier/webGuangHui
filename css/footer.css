@@ -1,9 +1,9 @@
-#meizu-footer * {
+#win-win-footer * {
 	margin: 0;
 	padding: 0
 }
 
-#meizu-footer .meizu-row {
+#win-win-footer .win-win-row {
 	letter-spacing: -0.31em;
 	*letter-spacing: normal;
 	*word-spacing: -0.43em;
@@ -15,14 +15,14 @@
 	-ms-flex-flow: row wrap
 }
 
-#meizu-footer .col-1-24, #meizu-footer .col-2-24, #meizu-footer .col-3-24,
-	#meizu-footer .col-4-24, #meizu-footer .col-5-24, #meizu-footer .col-6-24,
-	#meizu-footer .col-7-24, #meizu-footer .col-8-24, #meizu-footer .col-9-24,
-	#meizu-footer .col-10-24, #meizu-footer .col-11-24, #meizu-footer .col-12-24,
-	#meizu-footer .col-13-24, #meizu-footer .col-14-24, #meizu-footer .col-15-24,
-	#meizu-footer .col-16-24, #meizu-footer .col-17-24, #meizu-footer .col-18-24,
-	#meizu-footer .col-19-24, #meizu-footer .col-20-24, #meizu-footer .col-21-24,
-	#meizu-footer .col-22-24, #meizu-footer .col-23-24, #meizu-footer .col-24-24
+#win-win-footer .col-1-24, #win-win-footer .col-2-24, #win-win-footer .col-3-24,
+	#win-win-footer .col-4-24, #win-win-footer .col-5-24, #win-win-footer .col-6-24,
+	#win-win-footer .col-7-24, #win-win-footer .col-8-24, #win-win-footer .col-9-24,
+	#win-win-footer .col-10-24, #win-win-footer .col-11-24, #win-win-footer .col-12-24,
+	#win-win-footer .col-13-24, #win-win-footer .col-14-24, #win-win-footer .col-15-24,
+	#win-win-footer .col-16-24, #win-win-footer .col-17-24, #win-win-footer .col-18-24,
+	#win-win-footer .col-19-24, #win-win-footer .col-20-24, #win-win-footer .col-21-24,
+	#win-win-footer .col-22-24, #win-win-footer .col-23-24, #win-win-footer .col-24-24
 	{
 	display: inline-block;
 	*display: inline;
@@ -33,126 +33,126 @@
 	text-rendering: auto
 }
 
-#meizu-footer .col-1-24 {
+#win-win-footer .col-1-24 {
 	width: 4.1667%;
 	*width: 4.1357%
 }
 
-#meizu-footer .col-2-24 {
+#win-win-footer .col-2-24 {
 	width: 8.3333%;
 	*width: 8.3023%
 }
 
-#meizu-footer .col-3-24 {
+#win-win-footer .col-3-24 {
 	width: 12.5000%;
 	*width: 12.4690%
 }
 
-#meizu-footer .col-4-24 {
+#win-win-footer .col-4-24 {
 	width: 16.6667%;
 	*width: 16.6357%
 }
 
-#meizu-footer .col-5-24 {
+#win-win-footer .col-5-24 {
 	width: 20.8333%;
 	*width: 20.8023%
 }
 
-#meizu-footer .col-6-24 {
+#win-win-footer .col-6-24 {
 	width: 25%;
 	*width: 24.9690%
 }
 
-#meizu-footer .col-7-24 {
+#win-win-footer .col-7-24 {
 	width: 29.1667%;
 	*width: 29.1357%
 }
 
-#meizu-footer .col-8-24 {
+#win-win-footer .col-8-24 {
 	width: 33.3333%;
 	*width: 33.3023%
 }
 
-#meizu-footer .col-9-24 {
+#win-win-footer .col-9-24 {
 	width: 37.5000%;
 	*width: 37.4690%
 }
 
-#meizu-footer .col-10-24 {
+#win-win-footer .col-10-24 {
 	width: 41.6667%;
 	*width: 41.6357%
 }
 
-#meizu-footer .col-11-24 {
+#win-win-footer .col-11-24 {
 	width: 45.8333%;
 	*width: 45.8023%
 }
 
-#meizu-footer .col-12-24 {
+#win-win-footer .col-12-24 {
 	width: 50%;
 	*width: 49.9690%
 }
 
-#meizu-footer .col-13-24 {
+#win-win-footer .col-13-24 {
 	width: 54.1667%;
 	*width: 54.1357%
 }
 
-#meizu-footer .col-14-24 {
+#win-win-footer .col-14-24 {
 	width: 58.3333%;
 	*width: 58.3023%
 }
 
-#meizu-footer .col-15-24 {
+#win-win-footer .col-15-24 {
 	width: 62.5000%;
 	*width: 62.4690%
 }
 
-#meizu-footer .col-16-24 {
+#win-win-footer .col-16-24 {
 	width: 66.6667%;
 	*width: 66.6357%
 }
 
-#meizu-footer .col-17-24 {
+#win-win-footer .col-17-24 {
 	width: 70.8333%;
 	*width: 70.8023%
 }
 
-#meizu-footer .col-18-24 {
+#win-win-footer .col-18-24 {
 	width: 75%;
 	*width: 74.9690%
 }
 
-#meizu-footer .col-19-24 {
+#win-win-footer .col-19-24 {
 	width: 79.1667%;
 	*width: 79.1357%
 }
 
-#meizu-footer .col-20-24 {
+#win-win-footer .col-20-24 {
 	width: 83.3333%;
 	*width: 83.3023%
 }
 
-#meizu-footer .col-21-24 {
+#win-win-footer .col-21-24 {
 	width: 87.5000%;
 	*width: 87.4690%
 }
 
-#meizu-footer .col-22-24 {
+#win-win-footer .col-22-24 {
 	width: 91.6667%;
 	*width: 91.6357%
 }
 
-#meizu-footer .col-23-24 {
+#win-win-footer .col-23-24 {
 	width: 95.8333%;
 	*width: 95.8023%
 }
 
-#meizu-footer .col-24-24 {
+#win-win-footer .col-24-24 {
 	width: 100%
 }
 
-#meizu-footer .button {
+#win-win-footer .button {
 	outline: 0;
 	display: inline-block;
 	*display: inline;
@@ -169,12 +169,12 @@
 	user-select: none
 }
 
-#meizu-footer .button::-moz-focus-inner {
+#win-win-footer .button::-moz-focus-inner {
 	padding: 0;
 	border: 0
 }
 
-#meizu-footer .button {
+#win-win-footer .button {
 	font-family: inherit;
 	font-size: 12px;
 	*font-size: 90%;
@@ -189,7 +189,7 @@
 	text-decoration: none
 }
 
-#meizu-footer .button-hover, #meizu-footer .button:hover, #meizu-footer .button:focus
+#win-win-footer .button-hover, #win-win-footer .button:hover, #win-win-footer .button:focus
 	{
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',
 		endColorstr='#1a000000', GradientType=0);
@@ -205,22 +205,22 @@
 		rgba(0, 0, 0, 0.10))
 }
 
-#meizu-footer .button-active, #meizu-footer .button:active {
+#win-win-footer .button-active, #win-win-footer .button:active {
 	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset, 0 0 6px
 		rgba(0, 0, 0, 0.20) inset
 }
 
-#meizu-footer .button::-moz-focus-inner {
+#win-win-footer .button::-moz-focus-inner {
 	padding: 0;
 	border: 0
 }
 
-#meizu-footer .button-primary, #meizu-footer a.button-primary {
+#win-win-footer .button-primary, #win-win-footer a.button-primary {
 	background-color: rgb(61, 177, 250);
 	color: #fff
 }
 
-#meizu-footer {
+#win-win-footer {
 	z-index: 999;
 	font-family: Arial, Muli;
 	font-size: 14px;
@@ -230,42 +230,42 @@
 	background-color: #fff
 }
 
-#meizu-footer li {
+#win-win-footer li {
 	list-style: none
 }
 
-#meizu-footer a {
+#win-win-footer a {
 	color: #515151;
 	text-decoration: none
 }
 
-#meizu-footer .meizu-footer-wrap {
+#win-win-footer .win-win-footer-wrap {
 	width: 1140px;
 	margin: 0 auto;
 	padding: 0 20px
 }
 
-#meizu-footer .meizu-footer-link {
+#win-win-footer .win-win-footer-link {
 	padding: 60px 0;
 	border-bottom: 1px solid #f1f1f1
 }
 
-#meizu-footer .meizu-footer-link .col-3-24 {
+#win-win-footer .win-win-footer-link .col-3-24 {
 	margin-right: 84px
 }
 
-#meizu-footer .meizu-footer-link p {
+#win-win-footer .win-win-footer-link p {
 	padding: 10px 0;
 	font-size: 14px;
 	font-weight: bold
 }
 
-#meizu-footer .meizu-footer-link a {
+#win-win-footer .win-win-footer-link a {
 	line-height: 27px;
 	font-size: 12px
 }
 
-#meizu-footer .button-language {
+#win-win-footer .button-language {
 	border-top: 1px solid #b7b7b7;
 	border-bottom: 1px solid #b7b7b7;
 	padding: 10px 20px;
@@ -273,16 +273,16 @@
 		80%
 }
 
-#meizu-footer .button-language:hover {
+#win-win-footer .button-language:hover {
 	background: transparent url(../images/footer-btn-icon.jpg) no-repeat 100%
 		80%
 }
 
-#meizu-footer .meizu-footer-phone {
+#win-win-footer .win-win-footer-phone {
 	font-size: 16px
 }
 
-#meizu-footer .meizu-footer-info {
+#win-win-footer .win-win-footer-info {
 	color: #999;
 	text-align: right;
 	margin-right: 20px;
@@ -290,23 +290,23 @@
 	padding-top: 30px
 }
 
-#meizu-footer  .meizu-footer-info img {
+#win-win-footer  .win-win-footer-info img {
 	margin-bottom: -5px
 }
 
-#meizu-footer .meizu-footer-logo {
+#win-win-footer .win-win-footer-logo {
 	padding-top: 33px;
 	margin-left: 20px
 }
 
-#meizu-footer .meizu-footer-language {
+#win-win-footer .win-win-footer-language {
 	position: relative;
 	margin-top: 10px;
 	width: 90px;
 	height: 33px
 }
 
-#meizu-footer .meizu-footer-select {
+#win-win-footer .win-win-footer-select {
 	display: none;
 	position: absolute;
 	text-align: center;
@@ -317,67 +317,67 @@
 	border: 1px solid #b7b7b7
 }
 
-#meizu-footer .meizu-footer-select li {
+#win-win-footer .win-win-footer-select li {
 	padding: 5px 0
 }
 
-#meizu-footer .meizu-footer-select .meizu-row {
+#win-win-footer .win-win-footer-select .win-win-row {
 	text-align: left;
 }
 
-#meizu-footer .footer-flag {
+#win-win-footer .footer-flag {
 	width: 21px;
 	height: 21px;
 	background: #fff url(../images/footer-language.png) no-repeat 0 0;
 	margin: 3px auto 0 auto
 }
 
-#meizu-footer .footer-flag.hk {
+#win-win-footer .footer-flag.hk {
 	background-position: 0 0
 }
 
-#meizu-footer .footer-flag.en {
+#win-win-footer .footer-flag.en {
 	background-position: -23px 0
 }
 
-#meizu-footer .footer-flag.ru {
+#win-win-footer .footer-flag.ru {
 	background-position: -46px 0
 }
 
-#meizu-footer .footer-flag.il {
+#win-win-footer .footer-flag.il {
 	background-position: -69px 0
 }
 
-#meizu-footer .footer-flag.cn {
+#win-win-footer .footer-flag.cn {
 	background-position: -92px 0
 }
 
-#meizu-footer .footer-flag.tw {
+#win-win-footer .footer-flag.tw {
 	background-position: -115px 0
 }
 
-#meizu-footer .footer-flag.de {
+#win-win-footer .footer-flag.de {
 	background-position: -138px 0
 }
 
-#meizu-footer .meizu-footer-select p {
+#win-win-footer .win-win-footer-select p {
 	border-bottom: 1px solid #b7b7b7
 }
 
-#meizu-footer .meizu-footer-select li:hover, #meizu-footer .meizu-footer-select li:hover .footer-flag
+#win-win-footer .win-win-footer-select li:hover, #win-win-footer .win-win-footer-select li:hover .footer-flag
 	{
 	background-color: #00a7ea
 }
 
-#meizu-footer .meizu-footer-wechat {
+#win-win-footer .win-win-footer-wechat {
 	position: relative
 }
 
-#meizu-footer .meizu-footer-wechat div {
+#win-win-footer .win-win-footer-wechat div {
 	cursor: pointer
 }
 
-#meizu-footer .meizu-footer-wechat img {
+#win-win-footer .win-win-footer-wechat img {
 	z-index: 99999;
 	display: none;
 	position: absolute;
@@ -398,30 +398,30 @@
 		this.runtimeStyle.backgroundImage= "none")), this.pngSet=true)
 }
 
-#meizu-footer .meizu-footer-link a:hover {
+#win-win-footer .win-win-footer-link a:hover {
 	color: #31a5e7
 }
 
-#meizu-footer .meizu-footer-info a {
+#win-win-footer .win-win-footer-info a {
 	margin-left: 10px;
 	color: #999
 }
 
-#meizu-footer.tb .meizu-footer-link {
+#win-win-footer.tb .win-win-footer-link {
 	border-top: 1px solid #f1f1f1
 }
 
-#meizu-footer .meizu-footer-co {
+#win-win-footer .win-win-footer-co {
 	height: 80px
 }
 
-#meizu-footer .meizu-footer-language a:hover {
+#win-win-footer .win-win-footer-language a:hover {
 	color: #515151
 }
 
 @media screen and (max-width:1180px) {
-	#meizu-footer .meizu-footer-co, #meizu-footer .meizu-footer-link,
-		#meizu-footer .meizu-footer {
+	#win-win-footer .win-win-footer-co, #win-win-footer .win-win-footer-link,
+		#win-win-footer .win-win-footer {
 		width: 1180px
 	}
 }

@@ -153,3 +153,42 @@
 .social-icon-24.social-icon-ring-greycolor.social-icon-wechat:hover{background:url(../images/social-icons-c.png) no-repeat -200px -1024px}
 .social-icon-24.social-icon-ring-greycolor.social-icon-pinterest:hover{background:url(../images/social-icons-c.png) no-repeat -200px -1088px}
 .social-icon-24.social-icon-ring-greycolor.social-icon-youku:hover{background:url(../images/social-icons-c.png) no-repeat -200px -1152px}
+
+.payment-item {
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	margin-right: 4px;
+	background-image:
+		url(../images/payment.png);
+	background-repeat: no-repeat
+}
+.payment-item.visa {
+	background-position: -45px -228px
+}
+.payment-item.mastercard {
+	background-position: -231px -42px
+}
+.payment-item.tt {
+	background-position: -235px -158px
+}
+.payment-item.e-checking {
+	width: 62px;
+	background-position: -123px -119px
+}
+.payment-item.e-maestro {
+	background-position: -195px -119px
+}
+.payment-item.e-webmoney {
+	width: 62px;
+	background-position: -5px -150px
+}
+.payment-item-paylater {
+	display: inline-block;
+	width: 65px;
+	height: 20px;
+	margin-right: 4px;
+	background:
+		url(//img.alicdn.com/tfs/TB1hZLyECzqK1RjSZFjXXblCFXa-61-20.svg);
+	background-repeat: no-repeat
+}

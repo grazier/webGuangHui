@@ -3,46 +3,46 @@
 <link rel="stylesheet" href="./css/features.css">
 <link rel="stylesheet" href="./css/header.css">
 
-<div id="mynav" class="meizu-header">
-		<div class="meizu-header-wrap">
-			<div class="meizu-header-logo">
-				<a href="./index.html" class="meizu-header-logo-img"></a>
+<div id="mynav" class="win-win-header">
+		<div class="win-win-header-wrap">
+			<div class="win-win-header-logo">
+				<a href="./index.html" class="win-win-header-logo-img"></a>
 			</div>
-			<div class="meizu-header-log">
-				<div class="meizu-header-login" id="_unlogin">
+			<div class="win-win-header-log">
+				<div class="win-win-header-login" id="_unlogin">
 					<a href="./index.html">English</a> | <a href="#">Français</a> | <a
 						href="#">Deutsch</a> | <a href="#">Portugal</a> | <a href="#">España</a>
 				</div>
-				<div class="meizu-header-logout" id="_islogin"
+				<div class="win-win-header-logout" id="_islogin"
 					style="display: none;">
 					<a href="https://member.meizu.com/uc/webjsp/member/detail"
 						id="mzCustName"></a> | <a
 						href="javascript:window.location.href = _logout">退出</a>
 				</div>
 			</div>
-			<ul class="meizu-header-link">
+			<ul class="win-win-header-link">
 				<li><a href="http://store.meizu.com/">Home</a></li>
-				<li id="meizu-header-link-product" class="meizu-header-link-product">
-					<a href="" class="meizu-header-link-product-a hover"
+				<li id="win-win-header-link-product" class="win-win-header-link-product">
+					<a href="" class="win-win-header-link-product-a hover"
 					onclick="return false;">Products</a>
-					<div id="meizu-header-sub" class="meizu-header-sub">
-						<div class="meizu-header-wrap-sub">
-							<ul class="meizu-header-sub-products">
-								<li class="meizu-header-sub-product"
+					<div id="win-win-header-sub" class="win-win-header-sub">
+						<div class="win-win-header-wrap-sub">
+							<ul class="win-win-header-sub-products">
+								<li class="win-win-header-sub-product"
 									style="padding-left: 273px;"><a class="a-prod1"
 									href="./product-1.html">
-										<div class="meizu-header-sub-img prod1"></div>
-										<p class="meizu-header-sub-desc">KMT</p>
+										<div class="win-win-header-sub-img prod1"></div>
+										<p class="win-win-header-sub-desc">KMT</p>
 								</a></li>
-								<li class="meizu-header-sub-product"><a class="a-prod2"
-									href="http://www.meizu.com/products/mx4fun.html">
-										<div class="meizu-header-sub-img prod2"></div>
-										<p class="meizu-header-sub-desc">FLOW</p>
+								<li class="win-win-header-sub-product"><a class="a-prod2"
+									href="http://www.winwinwaterjet.com/products/mx4fun.html">
+										<div class="win-win-header-sub-img prod2"></div>
+										<p class="win-win-header-sub-desc">FLOW</p>
 								</a></li>
-								<li class="meizu-header-sub-product"><a class="a-prod3"
-									href="http://www.meizu.com/products/mx3fun.html">
-										<div class="meizu-header-sub-img prod3"></div>
-										<p class="meizu-header-sub-desc">JET EDGE</p>
+								<li class="win-win-header-sub-product"><a class="a-prod3"
+									href="http://www.winwinwaterjet.com/products/mx3fun.html">
+										<div class="win-win-header-sub-img prod3"></div>
+										<p class="win-win-header-sub-desc">JET EDGE</p>
 								</a></li>
 							</ul>
 						</div>
@@ -59,8 +59,8 @@
 	</div>
 	<script>
     (function(w, d) {
-        var sub = d.getElementById('meizu-header-sub'),
-                product = d.getElementById('meizu-header-link-product'),
+        var sub = d.getElementById('win-win-header-sub'),
+                product = d.getElementById('win-win-header-link-product'),
                 addHandle = function(element, type, handler) {
                     if (element.addEventListener) {
                         element.addEventListener(type, handler, false);
@@ -124,7 +124,7 @@
     }
     var _register = "https://member.meizu.com/register?lang=cn&service=www&appuri=http%3A%2F%2Fwww.meizu.com%2Faccounts%2Flogin&useruri=" + encodeURIComponent(_local_url);
     var _login = "https://member.meizu.com/login/login.html?lang=cn&service=www&appuri=http%3A%2F%2Fwww.meizu.com%2Faccounts%2Flogin&useruri=" + encodeURIComponent(_local_url);
-    var _logout = 'http://www.meizu.com/accounts/logout?useruri='+encodeURIComponent(_local_url);
+    var _logout = 'http://www.winwinwaterjet.com/accounts/logout?useruri='+encodeURIComponent(_local_url);
         var _isLogin = getCookie("_islogin");
     if (_isLogin === 'true') {
         window.document.write("<script src='https://member.meizu.com/service/accounts/fetchOrder.jsonp?callback=getFlymeAndOrderNumber&v=" + Math.random() + "'><\/script>");
@@ -163,8 +163,8 @@
               }
             };
           },
-          product = d.getElementById('meizu-header-link-product'),
-          sub = forEach(product.getElementsByTagName('div'), 'meizu-header-sub');
+          product = d.getElementById('win-win-header-link-product'),
+          sub = forEach(product.getElementsByTagName('div'), 'win-win-header-sub');
       addHandle(product, 'mouseover', mouseover);
       addHandle(product, 'mouseout', mouseout);
       sub.style.width = d.body.clientWidth + 'px';
